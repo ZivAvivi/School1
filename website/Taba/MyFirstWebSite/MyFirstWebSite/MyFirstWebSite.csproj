@@ -129,6 +129,9 @@
     <Content Include="HTML_links\Animals\crocodile.html" />
     <Content Include="HTML_links\Animals\lamor.html" />
     <Content Include="HTML_links\Animals\Lion.html" />
+    <Content Include="HTML_links\Cars\Cars.html" />
+    <Content Include="HTML_links\Cars\Honda.html" />
+    <Content Include="HTML_links\Cars\Toyota.html" />
     <Content Include="HTML_links\Colors\colors.html" />
     <Content Include="HTML_links\Colors\Green.html" />
     <Content Include="HTML_links\Colors\Red.html" />
@@ -136,6 +139,10 @@
     <Content Include="HTML_links\numbers\number2.html" />
     <Content Include="HTML_links\numbers\number1.html" />
     <Content Include="pics\backToTop.png" />
+    <Content Include="pics\car.png" />
+    <Content Include="pics\car2.png" />
+    <Content Include="pics\car3.png" />
+    <Content Include="pics\carslogo.png" />
     <Content Include="pics\croc.png" />
     <Content Include="pics\croc2.png" />
     <Content Include="pics\croc3.png" />
@@ -148,6 +155,10 @@
     <Content Include="pics\giraffe.png" />
     <Content Include="pics\giraffe2.png" />
     <Content Include="pics\giraffe3.png" />
+    <Content Include="pics\hondacar.png" />
+    <Content Include="pics\hondacar2.png" />
+    <Content Include="pics\hondacar3.png" />
+    <Content Include="pics\hondalogo.png" />
     <Content Include="pics\lama.png" />
     <Content Include="pics\lama2.png" />
     <Content Include="pics\lama3.png" />
@@ -157,6 +168,10 @@
     <Content Include="pics\lion.jpg" />
     <Content Include="pics\lion2.jpg" />
     <Content Include="pics\lion3.png" />
+    <Content Include="pics\toyotacar.png" />
+    <Content Include="pics\toyotacar2.png" />
+    <Content Include="pics\toyotacar3.png" />
+    <Content Include="pics\toyotalogo.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
