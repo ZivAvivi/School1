@@ -129,6 +129,7 @@
     <Content Include="HTML_links\Animals\crocodile.html" />
     <Content Include="HTML_links\Animals\lamor.html" />
     <Content Include="HTML_links\Animals\Lion.html" />
+    <Content Include="HTML_links\Animals\tables.html" />
     <Content Include="HTML_links\Cars\Cars.html" />
     <Content Include="HTML_links\Cars\Honda.html" />
     <Content Include="HTML_links\Cars\Toyota.html" />

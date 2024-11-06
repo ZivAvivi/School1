@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\cars\\cars.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\cars\\cars.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\animals\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\animals\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\cars\\honda.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\cars\\honda.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\cars\\toyota.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\cars\\toyota.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\myfirstwebsite\\animals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\animals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\animals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\animals\\crocodile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\animals\\crocodile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\myfirstwebsite\\html_links\\animals\\dodo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\animals\\dodo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Animals.html",
               "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\Animals.html",
               "RelativeDocumentMoniker": "MyFirstWebSite\\Animals.html",
               "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\Animals.html",
               "RelativeToolTip": "MyFirstWebSite\\Animals.html",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAADgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-10T19:57:11.276Z",
               "IsPinned": true,
@@ -56,67 +40,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Honda.html",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Cars\\Honda.html",
-              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Cars\\Honda.html",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Cars\\Honda.html",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Cars\\Honda.html",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-29T13:11:11.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Toyota.html",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Cars\\Toyota.html",
-              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Cars\\Toyota.html",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Cars\\Toyota.html",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Cars\\Toyota.html",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-29T12:58:39.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cars.html",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Cars\\Cars.html",
-              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Cars\\Cars.html",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Cars\\Cars.html",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Cars\\Cars.html",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAA/AAAAAAAAAA==",
+              "Title": "tables.html",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-29T12:07:31.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "crocodile.html",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\crocodile.html",
-              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Animals\\crocodile.html",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\crocodile.html",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Animals\\crocodile.html",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-29T12:00:28.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dodo.html",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\dodo.html",
-              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Animals\\dodo.html",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\dodo.html",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Animals\\dodo.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-14T14:41:37.64Z",
+              "WhenOpened": "2024-11-05T12:23:35.265Z",
               "EditorCaption": ""
             }
           ]
