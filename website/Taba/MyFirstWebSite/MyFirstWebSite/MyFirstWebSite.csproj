@@ -130,6 +130,15 @@
     <Content Include="HTML_links\Animals\lamor.html" />
     <Content Include="HTML_links\Animals\Lion.html" />
     <Content Include="HTML_links\Animals\tables.html" />
+    <Content Include="HTML_links\callander\Shabat.html" />
+    <Content Include="pics\HappyTorah.png" />
+    <Content Include="HTML_links\callander\Kipor.html" />
+    <Content Include="HTML_links\callander\HappyTorah.html" />
+    <Content Include="HTML_links\callander\RoshHashana.html" />
+    <Content Include="pics\kipor.jpg" />
+    <Content Include="pics\october.jpg" />
+    <Content Include="pics\RoshHashna.png" />
+    <Content Include="HTML_links\callander\Sokot.html" />
     <Content Include="HTML_links\Cars\Cars.html" />
     <Content Include="HTML_links\Cars\Honda.html" />
     <Content Include="HTML_links\Cars\Toyota.html" />
@@ -139,6 +148,7 @@
     <Content Include="HTML_links\Colors\Yellow.html" />
     <Content Include="HTML_links\numbers\number2.html" />
     <Content Include="HTML_links\numbers\number1.html" />
+    <Content Include="HTML_links\callander\October.html" />
     <Content Include="pics\backToTop.png" />
     <Content Include="pics\car.png" />
     <Content Include="pics\car2.png" />
@@ -169,6 +179,8 @@
     <Content Include="pics\lion.jpg" />
     <Content Include="pics\lion2.jpg" />
     <Content Include="pics\lion3.png" />
+    <Content Include="pics\Sabbat.png" />
+    <Content Include="pics\sokot.png" />
     <Content Include="pics\toyotacar.png" />
     <Content Include="pics\toyotacar2.png" />
     <Content Include="pics\toyotacar3.png" />
