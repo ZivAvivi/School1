@@ -131,6 +131,7 @@
     <Content Include="HTML_links\Animals\Lion.html" />
     <Content Include="HTML_links\Animals\tables.html" />
     <Content Include="HTML_links\callander\Shabat.html" />
+    <Content Include="HTML_links\JavaScript.html" />
     <Content Include="pics\HappyTorah.png" />
     <Content Include="HTML_links\callander\Kipor.html" />
     <Content Include="HTML_links\callander\HappyTorah.html" />

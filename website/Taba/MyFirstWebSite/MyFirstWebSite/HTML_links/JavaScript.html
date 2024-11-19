@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript"></script>
+    <h1 style="color:darkviolet"></h1>
+
+    <script>
+        document.write("Hello") // writes hello in the website
+        window.alert("Hello") // open a window that says hello
+        // window.alert and alert are the same
+
+        document.write("<br />")
+
+        var name = "ziv"
+        document.write("Hello " + name)
+        document.write("<br />")
+        name = prompt("Enter your name: ", "")
+        document.write("<h1 style=\"color: darkviolet \">Hello " + name + "</h1>")
+        document.write("<br />")
+        var age = parseInt(prompt("enter your age", 0))
+        document.write("<h2 style=\"color: blue \">Next year you will be " + (age + 1) + " years old </h2>")
+
+        
+        var num1 = parseInt(prompt("enter num1", 0))
+        var num2 = parseInt(prompt("enter num2", 0))
+        document.write(num1 + " + " + num2 + " = " + (num1 + num2))
+        document.write("<br />" + num1 + " - " + num2 + " = " + (num1 - num2))
+        document.write("<br />" + num1 + " / " + num2 + " = " + (num1 / num2))
+        document.write("<br />" + num1 + " * " + num2 + " = " + (num1 * num2))
+        document.write("<br />" + num1 + " % " + num2 + " = " + (num1 % num2))
+        
+
+    </script>
+
+</body>
+</html>
