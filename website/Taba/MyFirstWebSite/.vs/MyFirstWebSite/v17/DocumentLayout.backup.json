@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\javascript.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\mathqustions.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\mathqustions.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\myfirstwebsite\\html_links\\javascript.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\javascript.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\myfirstwebsite\\animals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\animals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +30,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animals.html",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\Animals.html",
+              "RelativeDocumentMoniker": "MyFirstWebSite\\Animals.html",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\Animals.html",
+              "RelativeToolTip": "MyFirstWebSite\\Animals.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-03T12:39:45.474Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "mathQustions.html",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\mathQustions.html",
+              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\mathQustions.html",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\mathQustions.html*",
+              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\mathQustions.html*",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAYwLQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-03T12:38:37.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "JavaScript.html",
               "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\JavaScript.html",
               "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\JavaScript.html",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\JavaScript.html*",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\JavaScript.html*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\JavaScript.html",
+              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\JavaScript.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-19T13:20:11.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:20:11.513Z"
             }
           ]
         }
