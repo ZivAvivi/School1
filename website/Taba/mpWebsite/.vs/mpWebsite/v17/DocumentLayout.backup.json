@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\school\\School1\\website\\Taba\\mpWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|D:\\school\\School1\\website\\Taba\\mpWebsite\\mpwebsite\\math.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|solutionrelative:mpwebsite\\math.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|d:\\school\\school1\\website\\taba\\mpwebsite\\mpwebsite\\schedule.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|solutionrelative:mpwebsite\\schedule.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|d:\\school\\school1\\website\\taba\\mpwebsite\\mpwebsite\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|D:\\school\\School1\\website\\Taba\\mpWebsite\\mpwebsite\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|solutionrelative:mpwebsite\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|d:\\school\\school1\\website\\taba\\mpwebsite\\mpwebsite\\math.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|solutionrelative:mpwebsite\\math.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A4402F8-8222-4FBC-8957-D6FCA88A9B88}|mpWebsite\\mpWebsite.csproj|D:\\school\\School1\\website\\Taba\\mpWebsite\\mpwebsite\\animals.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -71,12 +75,25 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "schedule.aspx",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\schedule.aspx",
+              "RelativeDocumentMoniker": "mpWebsite\\schedule.aspx",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\schedule.aspx",
+              "RelativeToolTip": "mpWebsite\\schedule.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-26T11:57:43.712Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Math.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\Math.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\Math.aspx",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Animals.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\Animals.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\Animals.aspx",
@@ -97,12 +114,11 @@
               "RelativeToolTip": "mpWebsite\\Animals.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-26T11:33:36.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T11:33:36.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "crocodile.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\crocodile.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\crocodile.aspx",
@@ -114,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "dodo.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\dodo.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\dodo.aspx",
@@ -126,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "elephant.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\elephant.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\elephant.aspx",
@@ -138,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "girrafe.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\girrafe.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\girrafe.aspx",
@@ -150,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "lamor.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\lamor.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\lamor.aspx",
@@ -162,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Spinner.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\Spinner.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\Spinner.aspx",
@@ -174,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "lama.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\lama.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\lama.aspx",
@@ -186,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "lion.aspx",
               "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\mpWebsite\\mpWebsite\\lion.aspx",
               "RelativeDocumentMoniker": "mpWebsite\\lion.aspx",

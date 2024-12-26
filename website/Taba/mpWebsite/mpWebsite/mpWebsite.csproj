@@ -130,6 +130,8 @@
     <Content Include="lamor.aspx" />
     <Content Include="lion.aspx" />
     <Content Include="Pics\backToTop.png" />
+    <Content Include="Pics\checkmark.png" />
+    <Content Include="Pics\close.png" />
     <Content Include="Pics\croc.png" />
     <Content Include="Pics\croc2.png" />
     <Content Include="Pics\croc3.png" />
@@ -155,6 +157,7 @@
     <Content Include="Pics\spinHP.png" />
     <Content Include="Pics\spinNG.png" />
     <Content Include="Pics\spinPN.png" />
+    <Content Include="schedule.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -303,6 +306,13 @@
       <DependentUpon>lion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="schedule.aspx.cs">
+      <DependentUpon>schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="schedule.aspx.designer.cs">
+      <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

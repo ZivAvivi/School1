@@ -76,8 +76,9 @@
     <tr>
        <td class="mpMenu">
            <a href="Spinner.aspx">סביבון</a>
-           <a href="Math.aspx">דף 2</a>
+           <a href="Math.aspx">תרגילי חשבון</a>
            <a href="Animals.aspx">דף חיות</a>
+           <a href="schedule.aspx">מערכת שעות</a>
        </td>
     </tr>
     <tr>
