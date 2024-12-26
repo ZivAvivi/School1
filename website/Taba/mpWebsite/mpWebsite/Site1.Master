@@ -9,14 +9,23 @@
     </asp:ContentPlaceHolder>
 
     <style>
-    body{
-        direction:rtl; 
-        background-color:aliceblue; 
-        width: auto;}
+        body {
+            direction: rtl;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            background-color: #EEF4ED;
+            color: #134074;
+            font-family: 'Modern No. 20';
+            font-size: x-large;
+        }
    
     .mpH1{
-        color:cadetblue; 
-        text-align: center; 
+        color: cadetblue; 
+        text-align: center;
+        font-style: italic;
+        font-weight: bolder;
 
     }
     
@@ -49,6 +58,12 @@
         border: 1px solid silver;
 
     }
+    p {
+        color: #0B2545;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
 </style>
 </head>
 <body>
