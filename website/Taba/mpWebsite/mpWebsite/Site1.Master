@@ -60,8 +60,8 @@
     </tr>
     <tr>
        <td class="mpMenu">
-           <a href="WebForm1.aspx">סביבון</a>
-           <a href="WebForm2.aspx">דף 2</a>
+           <a href="Spinner.aspx">סביבון</a>
+           <a href="Math.aspx">דף 2</a>
            <a href="Animals.aspx">דף חיות</a>
        </td>
     </tr>

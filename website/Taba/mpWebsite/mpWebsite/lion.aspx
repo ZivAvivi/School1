@@ -43,7 +43,7 @@
 </p>
     <div style="text-align: center">
         <h1> <u> אריה</u></h1>
-        <a href="../../Animals.html"><p style="color: #134074; font-style: italic; font-weight: bolder; ">חזור לדף הראשי</p></a>
+        <a href="Animals.aspx"><p style="color: #134074; font-style: italic; font-weight: bolder; ">חזור לדף הראשי</p></a>
     </div>
 
     <ol style="list-style-type: upper-roman;">

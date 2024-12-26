@@ -122,13 +122,13 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Animals.aspx" />
-    <Content Include="HTML_links\Animals\crocodile.aspx" />
-    <Content Include="HTML_links\Animals\dodo.aspx" />
-    <Content Include="HTML_links\Animals\elephant.aspx" />
-    <Content Include="HTML_links\Animals\girrafe.aspx" />
-    <Content Include="HTML_links\Animals\lama.aspx" />
-    <Content Include="HTML_links\Animals\lamor.aspx" />
-    <Content Include="HTML_links\Animals\lion.aspx" />
+    <Content Include="crocodile.aspx" />
+    <Content Include="dodo.aspx" />
+    <Content Include="elephant.aspx" />
+    <Content Include="girrafe.aspx" />
+    <Content Include="lama.aspx" />
+    <Content Include="lamor.aspx" />
+    <Content Include="lion.aspx" />
     <Content Include="Pics\backToTop.png" />
     <Content Include="Pics\croc.png" />
     <Content Include="Pics\croc2.png" />
@@ -183,8 +183,8 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="WebForm1.aspx" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="Spinner.aspx" />
+    <Content Include="Math.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -253,53 +253,53 @@
     <Compile Include="Animals.aspx.designer.cs">
       <DependentUpon>Animals.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\crocodile.aspx.cs">
+    <Compile Include="crocodile.aspx.cs">
       <DependentUpon>crocodile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\crocodile.aspx.designer.cs">
+    <Compile Include="crocodile.aspx.designer.cs">
       <DependentUpon>crocodile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\dodo.aspx.cs">
+    <Compile Include="dodo.aspx.cs">
       <DependentUpon>dodo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\dodo.aspx.designer.cs">
+    <Compile Include="dodo.aspx.designer.cs">
       <DependentUpon>dodo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\elephant.aspx.cs">
+    <Compile Include="elephant.aspx.cs">
       <DependentUpon>elephant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\elephant.aspx.designer.cs">
+    <Compile Include="elephant.aspx.designer.cs">
       <DependentUpon>elephant.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\girrafe.aspx.cs">
+    <Compile Include="girrafe.aspx.cs">
       <DependentUpon>girrafe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\girrafe.aspx.designer.cs">
+    <Compile Include="girrafe.aspx.designer.cs">
       <DependentUpon>girrafe.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\lama.aspx.cs">
+    <Compile Include="lama.aspx.cs">
       <DependentUpon>lama.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\lama.aspx.designer.cs">
+    <Compile Include="lama.aspx.designer.cs">
       <DependentUpon>lama.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\lamor.aspx.cs">
+    <Compile Include="lamor.aspx.cs">
       <DependentUpon>lamor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\lamor.aspx.designer.cs">
+    <Compile Include="lamor.aspx.designer.cs">
       <DependentUpon>lamor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HTML_links\Animals\lion.aspx.cs">
+    <Compile Include="lion.aspx.cs">
       <DependentUpon>lion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HTML_links\Animals\lion.aspx.designer.cs">
+    <Compile Include="lion.aspx.designer.cs">
       <DependentUpon>lion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -331,19 +331,19 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Spinner.aspx.cs">
+      <DependentUpon>Spinner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Spinner.aspx.designer.cs">
+      <DependentUpon>Spinner.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Math.aspx.cs">
+      <DependentUpon>Math.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Math.aspx.designer.cs">
+      <DependentUpon>Math.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
