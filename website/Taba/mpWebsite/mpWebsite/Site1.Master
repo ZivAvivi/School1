@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="mpWebsite.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="mpWebsite.Site1" %>
 
 <!DOCTYPE html>
 
@@ -79,6 +79,7 @@
            <a href="Math.aspx">תרגילי חשבון</a>
            <a href="Animals.aspx">דף חיות</a>
            <a href="schedule.aspx">מערכת שעות</a>
+           <a href="Baloon.aspx">בלון</a>
        </td>
     </tr>
     <tr>

@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Baloon.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -130,6 +131,10 @@
     <Content Include="lamor.aspx" />
     <Content Include="lion.aspx" />
     <Content Include="Pics\backToTop.png" />
+    <Content Include="Pics\balloon.png" />
+    <Content Include="Pics\balloon2.png" />
+    <Content Include="Pics\balloonPop.png" />
+    <Content Include="Pics\BalloonPopping.mp3" />
     <Content Include="Pics\checkmark.png" />
     <Content Include="Pics\close.png" />
     <Content Include="Pics\croc.png" />
@@ -232,6 +237,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Baloon.aspx.cs">
+      <DependentUpon>Baloon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Baloon.aspx.designer.cs">
+      <DependentUpon>Baloon.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
