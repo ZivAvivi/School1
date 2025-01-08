@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\myfirstwebsite\\html_links\\javascript.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|d:\\school\\school1\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\javascript.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\javascript.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\callander\\happytorah.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|d:\\school\\school1\\website\\taba\\myfirstwebsite\\myfirstwebsite\\html_links\\animals\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\myfirstwebsite\\html_links\\animals\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E167A446-6B56-4925-9EDA-CF25542A6C7D}|MyFirstWebSite\\MyFirstWebSite.csproj|solutionrelative:myfirstwebsite\\html_links\\animals\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -38,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "tables.html",
-              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\tables.html",
-              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Animals\\tables.html",
-              "ToolTip": "D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\tables.html",
-              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Animals\\tables.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-26T12:09:09.802Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,8 +54,7 @@
               "RelativeToolTip": "MyFirstWebSite\\HTML_links\\callander\\HappyTorah.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-26T11:58:30.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T11:58:30.437Z"
             },
             {
               "$type": "Document",
@@ -80,8 +66,7 @@
               "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Animals\\crocodile.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-24T13:30:38.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T13:30:38.143Z"
             },
             {
               "$type": "Document",
@@ -93,8 +78,7 @@
               "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Hanokia.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-10T12:10:55.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:10:55.292Z"
             },
             {
               "$type": "Document",
@@ -106,8 +90,7 @@
               "RelativeToolTip": "MyFirstWebSite\\Animals.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-03T12:39:45.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:39:45.474Z"
             },
             {
               "$type": "Document",
@@ -119,8 +102,7 @@
               "RelativeToolTip": "MyFirstWebSite\\HTML_links\\mathQustions.html",
               "ViewState": "AgIAACYAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-03T12:38:37.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:38:37.704Z"
             },
             {
               "$type": "Document",
@@ -130,10 +112,22 @@
               "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\JavaScript.html",
               "ToolTip": "D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\JavaScript.html",
               "RelativeToolTip": "MyFirstWebSite\\HTML_links\\JavaScript.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-19T13:20:11.513Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tables.html",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "RelativeDocumentMoniker": "MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\MyFirstWebSite\\MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "RelativeToolTip": "MyFirstWebSite\\HTML_links\\Animals\\tables.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-26T12:09:09.802Z"
             }
           ]
         }
