@@ -73,4 +73,85 @@ public class MyMath {
         }
         return a;
     }
+
+    /*
+    מקבל: מספר שלם חיובי
+    מחזיר: אם מספר הוא ראשוני
+    * */
+    public static boolean isPrime(int num)
+    {
+        double sq = Math.sqrt(num);
+        for (int i = 2; i <= sq; i++)
+        {
+            if (num%i ==0)
+                return false;
+        }
+        return true;
+    }
+
+    /*
+    מקבל: מספר חיובי
+    מחזיר: קירוב לשורש של 3 ספרות אחרי הנקודה
+    * */
+    public static double squreRoot(int num)
+    {
+        double x = 1;
+        double y = num/x;
+        while (Math.abs(y-x) > 0.001)
+        {
+            x = (x+y)/2;
+            y = num/x;
+        }
+        return x;
+    }
+
+    /*
+    מקבל: מיקום מספר בסדרת הפיבונצי כמספר שלם וחיובי
+    מחזירה: כלום
+    התוכנית מדפיסה את כל המספרים בפיבונצי עד הספרה הזו
+    * */
+    public static void fiboSmallerNum(int k)
+    {
+        int a = 0, b = 1, c = 0;
+        for (int i = 3; i <= k ; i++)
+        {
+            c = a+b;
+            System.out.print(c + ", ");
+            a = b;
+            b = c;
+        }
+        System.out.println();
+    }
+
+    // מדפיס את ה10 ספרות הראשונות בסדרת פיבונצי
+    public static void fibonacci()
+    {
+        int a = 0, b = 1, c = 0;
+        for (int i = 3; i <= 10 ; i++)
+        {
+            c = a+b;
+            System.out.print(c + ", ");
+            a = b;
+            b = c;
+        }
+        System.out.println();
+    }
+
+
+    /*
+    מקבלת: שני מספרים שלמים וחיובים
+    מחזירה: את המספר הכי גדול שמתחלק בניהם
+    * */
+    public static int mmg(int num1, int num2)
+    {
+        while (num1!=num2)
+        {
+            if (num1>num2)
+                num1 = num1 - num2;
+            else
+                num2 = num2 - num1;
+        }
+        return num1;
+    }
+
 }
