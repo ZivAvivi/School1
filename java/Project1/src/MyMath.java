@@ -106,26 +106,24 @@ public class MyMath {
     }
 
     /*
-    מקבל: מיקום מספר בסדרת הפיבונצי כמספר שלם וחיובי
-    מחזירה: כלום
-    התוכנית מדפיסה את כל המספרים בפיבונצי עד הספרה הזו
+
     * */
-    public static void fiboSmallerNum(int k)
+    public static void fiboSmallerNum(int num)
     {
         int a = 0, b = 1, c = 0;
-        for (int i = 3; i <= k ; i++)
-        {
+        do {
             c = a+b;
             System.out.print(c + ", ");
             a = b;
             b = c;
-        }
+        } while (c < num);
         System.out.println();
     }
 
     // מדפיס את ה10 ספרות הראשונות בסדרת פיבונצי
     public static void fibonacci()
     {
+        System.out.print("0, 1, ");
         int a = 0, b = 1, c = 0;
         for (int i = 3; i <= 10 ; i++)
         {
