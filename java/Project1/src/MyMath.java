@@ -106,7 +106,7 @@ public class MyMath {
     }
 
     /*
-
+    מדפיס את כל המספרים הקטנים בסדרת פיבונצי הקטנים ממספר זה
     * */
     public static void fiboSmallerNum(int num)
     {
