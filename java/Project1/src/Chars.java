@@ -7,55 +7,49 @@ public class Chars {
     // checks if the given letter is capitalized and returns a boolean
     public static boolean isUpper(char ch)
     {
-        if ((int)ch >= 65 && (int)ch < 90)
-            return true;
-        return false;
+        return(ch >= 'A' && ch <= 'Z');
     }
 
     // checks if the given letter is not capitalized and returns a boolean
     public static boolean isLower(char ch)
     {
-        if ((int)ch >= 97 && (int)ch <= 122)
-            return true;
-        return false;
+        return (ch >= 'a' && ch <= 'z');
     }
 
     // checks if the given letter is a number and returns a boolean
     public static boolean isNumber(char ch)
     {
-        if ((int)ch >= 48 && (int)ch <= 57)
-            return true;
-        return false;
+        return (ch >= '0' && ch <= '9');
     }
 
     // takes a uncapitalized letter and returns it capitalized
     public static char toUpper(char ch)
     {
-        return (char)((int)ch - 32);
+        return (char)(ch - 32);
     }
 
     // takes a capitalized letter and returns it uncapitalized
     public static char toLower(char ch)
     {
-        return (char)((int)ch + 32);
+        return (char)(ch + 32);
     }
 
     // returns the char as its number in the table
     public static int charToNum(char ch)
     {
-        return (int)ch;
+        return ch-48;
     }
 
     // takes a char and returns the next one in table
     public static char nextChar(char ch)
     {
-        return (char)((int)ch + 1);
+        return (char)(ch + 1);
     }
 
     // takes a char and returns the prev one in table
     public static char prevChar(char ch)
     {
-        return (char)((int)ch - 1);
+        return (char)(ch - 1);
     }
 
     // takes a char and returns the next letter in table in a circle
@@ -65,7 +59,7 @@ public class Chars {
             return 'a';
         else if(ch == 'Z')
             return 'A';
-        return (char)((int)ch + 1);
+        return (char)(ch + 1);
     }
 
     // takes a char and returns the prev letter in table in a circle
@@ -75,12 +69,7 @@ public class Chars {
             return 'z';
         else if(ch == 'A')
             return 'Z';
-        return (char)((int)ch - 1);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(nextLetter(input.next().charAt(0)));
-
+        return (char)(ch - 1);
     }
 
 }

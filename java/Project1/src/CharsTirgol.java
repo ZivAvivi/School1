@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CharsTirgol {
     public static Scanner input = new Scanner(System.in);
 
-    public static void encryptBy1(char[] arr)
+    public static void targil1(char[] arr)
     {
         System.out.print("unencrypted text: \" ");
         for (int i = 0; i < arr.length; i++)
@@ -16,7 +16,7 @@ public class CharsTirgol {
         System.out.println("\"");
     }
 
-    public static void encryptByNum(char[] arr, int num)
+    public static void targil2(char[] arr, int num)
     {
 
         System.out.print("unencrypted text: \" ");
@@ -45,27 +45,31 @@ public class CharsTirgol {
             else if(Chars.isLower(arr[i]))
                 System.out.print(Chars.toUpper(arr[i]));
             if(Chars.isNumber(arr[i]))
-                System.out.print("???");
+                for (int j = 0; j < Chars.charToNum(arr[i]); j++) {
+                    System.out.print(arr[i]);
+                }
         }
     }
 
 
     public static void main(String[] args) {
+        System.out.print("enter your text length ->");
+        int length = input.nextInt();
+
         input.useDelimiter("");
-        char[] arr = new char[5];
+        char[] arr = new char[length];
         System.out.print("enter " + arr.length + " letters --> ");
         for (int i = 0; i < arr.length; i++)
             arr[i] = input.next().charAt(0);
 
+        targil1(arr);
 
-        encryptBy1(arr);
-
-        input.reset(); // without this line the input crashes
+        input.reset(); // without this line the input crashes (removes the delimiter to avoid bugs)
         System.out.print("enter the encryption number -->: ");
         int num = input.nextInt();
-        encryptByNum(arr, num);
+        targil2(arr, num);
 
-
+        tagril3(arr);
 
 
     }
