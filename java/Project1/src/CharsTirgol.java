@@ -44,20 +44,20 @@ public class CharsTirgol {
                 System.out.print(Chars.toLower(arr[i]));
             else if(Chars.isLower(arr[i]))
                 System.out.print(Chars.toUpper(arr[i]));
-            if(Chars.isNumber(arr[i]))
-                for (int j = 0; j < Chars.charToNum(arr[i]); j++) {
+            else if(Chars.isNumber(arr[i]))
+                for (int j = 0; j < Chars.charToNum(arr[i]); j++)
                     System.out.print(arr[i]);
-                }
+
+            else System.out.print(arr[i]);
         }
     }
 
 
     public static void main(String[] args) {
-        System.out.print("enter your text length ->");
-        int length = input.nextInt();
+
+        char[] arr = new char[5];
 
         input.useDelimiter("");
-        char[] arr = new char[length];
         System.out.print("enter " + arr.length + " letters --> ");
         for (int i = 0; i < arr.length; i++)
             arr[i] = input.next().charAt(0);
@@ -74,3 +74,12 @@ public class CharsTirgol {
 
     }
 }
+/*
+enter 5 letters --> Ab C3
+unencrypted text: " Ab C3" encrypted text: "Bc!D4"
+
+enter the encryption number -->: 8
+unencrypted text: " Ab C3" encrypted text: "Ij(K;"
+
+aB c333
+* */
