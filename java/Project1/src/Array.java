@@ -117,8 +117,32 @@ public class Array {
 
     }
 
+    public static void primeSum(int[] arr){
+        for (int i = 1; i < arr.length; i++) {
+            if (MyMath.isPrime(arr[i-1] + arr[i])){
+                System.out.println("sum of index #"+(i-1) + " and index #" + i + " is " + (arr[i-1] + arr[i]));
+            }
+        }
+    }
 
+    // 0 < from < to < arr.length
+    public static boolean isPartInOrder(int[] arr, int from, int to){
+        for (int i = from+1; i < to ; i++) {
+            if(arr[i-1]+1 != arr[i])
+                return false;
+        }
+        return true;
+    }
 
+    // arr length is 120 long
+    public static int targil2(int[] arr){
+        int count =0;
+        for (int i = 0; i < 120; i+=10) {
+            if (isPartInOrder(arr, i, i+10))
+                count++;
+        }
+        return count;
+    }
 
 
 

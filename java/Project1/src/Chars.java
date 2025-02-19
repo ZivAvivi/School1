@@ -62,6 +62,8 @@ public class Chars {
         return (char)(ch + 1);
     }
 
+
+
     // takes a char and returns the prev letter in table in a circle
     public static char prevLetter(char ch)
     {
@@ -71,5 +73,11 @@ public class Chars {
             return 'Z';
         return (char)(ch - 1);
     }
+
+    public static boolean isHebrew(char ch)
+    {
+        return (ch >= 'א' && ch <= 'ת');
+    }
+
 
 }
