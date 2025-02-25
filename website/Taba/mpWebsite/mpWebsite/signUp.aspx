@@ -107,7 +107,7 @@
                         <td>
                             <table style="width: 550px;">
                                 <tr>
-                                    <td><input type="checkbox" name="Hobies" value="1" checked="checked" />Computers </td>
+                                    <td><input type="checkbox" name="Hobies" value="1"/>Computers </td>
                                     <td><input type="checkbox" name="Hobies" value="2"/>Music </td>
                                     <td><input type="checkbox" name="Hobies" value="3" />Movies </td>
                                     <td><input type="checkbox" name="Hobies" value="4" />TV </td>
@@ -132,6 +132,9 @@
                 <tr>
                     <td>אימת סיסמה</td>
                     <td><input type="password" name="conPw" id="conPw" /></td>
+                    <td>
+                        <input type="text" id="mCpw" size="30" style="display:none; background-color: silver; font-weight:bold;" disabled = "disabled"; />
+                    </td>
                 </tr>
 
 

@@ -29,8 +29,11 @@
         isOk = false;
 
     var pw = document.getElementById("pw").value;
+    if (!chkPassword(pw))
+        isOk = false;
+
     var conPw = document.getElementById("conPw").value; // conPw stands for confrim password
-    if (!chkPassword(pw, conPw))
+    if (!chkCpassword(pw, conPw))
         isOk = false;
 
     return isOk;
@@ -43,14 +46,14 @@ function chkUserName(txt)
     if (txt.length < 2)
         msg = "שם משתמש קצר מידי או לא קיים";
 
-    if (txt.length > 30)
-        msg = "שם משתמש עד 30 תווים";
+    if (txt.length > 15)
+        msg = "שם משתמש עד 15 תווים";
     if (containsHebrew(txt))
         msg = "שם משתמש לא יכול להשתמש בעברית";
     if (isBadChars(txt))
         msg = "שם משתמש מכיל תווים אסורים";
     if (isQuot(txt))
-        msg = "שם משתמש אינו יכול להכיל גרשיים";
+        msg = "שם משתמש אינו יכול להכיל גרשיים או גרש";
 
 
     if (msg != "") {
@@ -69,8 +72,7 @@ function chkEmail(email) {
 
     if (email.length == 0)
         msg = "אימייל לא קיים";
-        mEmail
-    if (email.length >= 30)
+    if (email.length > 30)
         msg = "אימייל עד 30 תווים";
 
     if (msg != "") {
@@ -142,12 +144,9 @@ function chkhobbies(hobies){
         return true
 }
 
-function chkPassword(pw, conPw) {
+function chkPassword(pw) {
     var msg = "";
 
-    if (pw != conPw) 
-        msg = "הסיסמה ואימות סיסמה אינם תואמים";
-    
         
     if (pw.length < 6) 
         msg = "סיסמה קצרה מידי או לא קיים";
@@ -163,6 +162,24 @@ function chkPassword(pw, conPw) {
         return false;
     } else {
         document.getElementById("mPw").style.display = "none";
+        return true;
+    }
+}
+
+function chkCpassword(pw, conPw) {
+    var msg = "";
+
+    if (pw != conPw) {
+        msg = "הסיסמה ואימות סיסמה אינם תואמים";
+    }
+        
+
+    if (msg != "") {
+        document.getElementById("mCpw").value = msg;
+        document.getElementById("mCpw").style.display = "inline";
+        return false;
+    } else {
+        document.getElementById("mCpw").style.display = "none";
         return true;
     }
 }
