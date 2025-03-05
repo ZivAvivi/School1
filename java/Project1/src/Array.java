@@ -112,11 +112,6 @@ public class Array {
         return sum;
     }
 
-
-    public static void addNum(int[] arr, int num){
-
-    }
-
     public static void primeSum(int[] arr){
         for (int i = 1; i < arr.length; i++) {
             if (MyMath.isPrime(arr[i-1] + arr[i])){
@@ -143,6 +138,22 @@ public class Array {
         }
         return count;
     }
+
+    /*
+    פעולה המבצעים "חיפוש בינרי" למערך מסודר
+    * */
+    public static boolean binSerch(int[] arr, int x){
+        int left =0; int right = arr.length-1;
+        while (left<=right){
+            int mid = (right +left)/2;
+            if(arr[mid] <= x) return true;
+            if(arr[mid] > x) right = mid-1;
+            else left = mid+1;
+        }
+        return false;
+    }
+
+
 
 
 
