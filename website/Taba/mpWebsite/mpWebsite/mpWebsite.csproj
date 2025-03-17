@@ -121,6 +121,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="galeary.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Animals.aspx" />
     <Content Include="crocodile.aspx" />
@@ -158,6 +159,18 @@
     <Content Include="Pics\lion.jpg" />
     <Content Include="Pics\lion2.jpg" />
     <Content Include="Pics\lion3.png" />
+    <Content Include="Pics\p11.jpg" />
+    <Content Include="Pics\p12.jpg" />
+    <Content Include="Pics\p13.jpg" />
+    <Content Include="Pics\p14.jpg" />
+    <Content Include="Pics\p21.jpg" />
+    <Content Include="Pics\p24.jpg" />
+    <Content Include="Pics\p31.jpg" />
+    <Content Include="Pics\p34.jpg" />
+    <Content Include="Pics\p41.jpg" />
+    <Content Include="Pics\p42.jpg" />
+    <Content Include="Pics\p43.jpg" />
+    <Content Include="Pics\p44.jpg" />
     <Content Include="Pics\spinGH.png" />
     <Content Include="Pics\spinHP.png" />
     <Content Include="Pics\spinNG.png" />
@@ -261,6 +274,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galeary.aspx.cs">
+      <DependentUpon>galeary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galeary.aspx.designer.cs">
+      <DependentUpon>galeary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
