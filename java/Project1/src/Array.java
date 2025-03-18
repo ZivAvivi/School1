@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 public class Array {
     public static Scanner input = new Scanner(System.in);
+    public static Random rand = new Random();
 
     /*
     פעולה שמקבלת מערך וממלא אותו בערכים מוגרלים
     * */
     public static void arrFill(int[] arr)
     {
-        Random rand = new Random();
         for (int i = 0; i < arr.length; i++)
         {
             arr[i] = rand.nextInt(10, 100);
@@ -35,6 +35,20 @@ public class Array {
     {
         System.out.print("{ ");
         for (int i = 0; i < arr.length; i++)
+        {
+            System.out.print(arr[i] + ", ");
+        }
+        System.out.println("}");
+
+    }
+
+    /*
+   פעולה שמקבלת מערך ומדפיסה את כל הערכים בצורה יפה
+   * */
+    public static void show(int[] arr, int size)
+    {
+        System.out.print("{ ");
+        for (int i = 0; i < size; i++)
         {
             System.out.print(arr[i] + ", ");
         }
@@ -98,6 +112,19 @@ public class Array {
                 sum += arr[i];
         }
         return sum;
+    }
+
+    public static int[] getRandomArray(int arrLength, int min, int max){
+        int[] arr = new int[arrLength];
+        int temp;
+        for (int i = 0; i < arr.length; i++)
+        {
+            do {
+                temp = rand.nextInt(min, max);
+            }while (exist(arr,temp));
+            arr[i] = temp;
+        }
+        return arr;
     }
 
     /*

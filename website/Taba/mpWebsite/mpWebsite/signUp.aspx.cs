@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DbDemo_MSSite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,8 +12,10 @@ namespace mpWebsite
     {
         public string yrBorn = "";
         public string st = "";
+        public string msg = "";
+        public string sqlInsert = "";
 
-        
+
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -80,7 +83,33 @@ namespace mpWebsite
 
 
                 st += "</table>";
+
+                string fileName = "usersDB.mdf";
+                string tableName = "usersTbl";
+
+                string sqlSelect = "SELECT * FROM " + tableName + " WHERE uName='" + uName + "'";
+                
+                if (Helper.IsExist(fileName, sqlSelect))
+                {
+                    sqlInsert += sqlSelect;
+                    msg += "user name has been taken";
+                }
+                else {
+                    sqlInsert = $"insert into {tableName} ";
+                    sqlInsert += $"values ('{uName}', N'{fName}', N'{lName}', ";
+                    sqlInsert += $"'{mail}', {yearBorn},'{gender}', '{prefix}', '{phone}', N'{city}', ";
+                    sqlInsert += $"'{hob1}', '{hob2}', '{hob3}', '{hob4}', '{hob5}', '{pw}')";
+
+                    Helper.DoQuery(fileName, sqlInsert);
+                    msg += "הרשומה נוספה בהצלחה";
+
+
+                }
+
+
             }
+
+            
             
 
 

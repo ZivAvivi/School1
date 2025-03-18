@@ -149,6 +149,11 @@
 
         <%=st %>
 
+        <h3 style="direction:ltr;">
+            <%=sqlInsert %>
+         </h3>
+
+        <h3><%=msg %></h3>
     </center>
 
 </asp:Content>
