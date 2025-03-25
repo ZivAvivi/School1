@@ -209,6 +209,7 @@
     <Content Include="signUp.aspx" />
     <Content Include="Spinner.aspx" />
     <Content Include="Math.aspx" />
+    <Content Include="SimpleQuary.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -404,6 +405,13 @@
     </Compile>
     <Compile Include="Math.aspx.designer.cs">
       <DependentUpon>Math.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleQuary.aspx.cs">
+      <DependentUpon>SimpleQuary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleQuary.aspx.designer.cs">
+      <DependentUpon>SimpleQuary.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
