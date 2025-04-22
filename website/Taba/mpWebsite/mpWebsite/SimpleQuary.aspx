@@ -42,11 +42,11 @@
                         if (document.getElementById("field").value == "hobby") {
                             var hobbyStr = "<select name='value'>";
 
-                            hobbyStr += "<option value='1'>computers</option>";
-                            hobbyStr += "<option value='2'>Music</option>";
-                            hobbyStr += "<option value='3'>Movies</option>";
-                            hobbyStr += "<option value='4'>TV</option>";
-                            hobbyStr += "<option value='5'>Horses</option>";
+                            hobbyStr += "<option value='1'>מחשבים</option>";
+                            hobbyStr += "<option value='2'>מוזיקה</option>";
+                            hobbyStr += "<option value='3'>סרטים</option>";
+                            hobbyStr += "<option value='4'>טלוויזיה</option>";
+                            hobbyStr += "<option value='5'>סוסים</option>";
 
                             hobbyStr += "</select>";
 

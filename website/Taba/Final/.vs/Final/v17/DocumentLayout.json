@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\mainpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\mainpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\final\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "about.aspx",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\about.aspx",
+              "RelativeDocumentMoniker": "Final\\about.aspx",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\about.aspx",
+              "RelativeToolTip": "Final\\about.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-22T12:41:23.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainPage.aspx",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\mainPage.aspx",
+              "RelativeDocumentMoniker": "Final\\mainPage.aspx",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\mainPage.aspx",
+              "RelativeToolTip": "Final\\mainPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-22T12:12:40.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\MasterPage.Master",
+              "RelativeDocumentMoniker": "Final\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\MasterPage.Master",
+              "RelativeToolTip": "Final\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-22T12:08:43.809Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

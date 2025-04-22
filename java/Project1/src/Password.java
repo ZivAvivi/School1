@@ -22,7 +22,7 @@ public class Password {
         boolean lower=false, upper=false, number=false, special=false, length=false;
         String badChars = "!%^&*()-_=+.<>?`~:;/'\"[\\]{},";
         if (str.length()>= 10 && str.length() <= 12){length=true;}
-        if (str.contains("@") || str.contains("#") || str.contains("$")){special=true;};
+        if (str.contains("@") || str.contains("#") || str.contains("$")){special=true;}
         for (int i = 0; i < str.length(); i++) {
             if (Chars.isLower(str.charAt(i))){lower=true;}
             else if (Chars.isUpper(str.charAt(i))){upper=true;}

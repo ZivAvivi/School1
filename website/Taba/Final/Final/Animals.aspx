@@ -1,0 +1,143 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Animals.aspx.cs" Inherits="mpWebsite.HTML_links.Animals.Animals" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>בעלי חיים</title>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <style>
+    body {
+        direction: rtl;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: #EEF4ED;
+        color: #134074;
+        font-family: 'Modern No. 20';
+        font-size: x-large;
+    }
+
+    h1 {
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    p {
+        color: #0B2545;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+</style>
+<h1 style="text-align: center"> <u> בעלי חיים</u></h1>
+<p style="color: #134074; text-align: center; font-style: italic; font-weight: bolder; ">מגיש: זיו אביבי</p>
+
+<ol style="list-style-type: upper-roman;">
+    <li><a href="#lion">אריה</a></li>
+    <li><a href="#elephant">פיל</a></li>
+    <li><a href="#girrafe">גירף</a></li>
+    <li><a href="#dodo">דודו</a></li>
+    <li><a href="#crocodile">תנין</a></li>
+    <li><a href="#lama">למה</a></li>
+    <li><a href="#lamor">למור</a></li>
+</ol>
+<hr />
+
+<h2 id="lion">אריה</h2>
+<p>אריה (שם מדעי: Panthera leo) הוא מין של טורף גדול מהסוג פנתר שבמשפחת החתוליים, והוא השני בגודלו בין בני הקבוצה דמויי חתול, אחרי תת-המין הסיבירי של הטיגריס.</p>
+<p>האריה נפוץ בעיקר ביבשת אפריקה, אך גם במדינת גוג'ראט שבהודו. הוא ניזון מאוכלי עשב שונים אותם הוא צד, וכן מפגרים. בתרבות האנושית נחשב האריה סמל לגבורה וכוח, ולכן הוצמד לו הכינוי "מלך החיות". תוחלת חייו בטבע היא בין 12 ל-18 שנים, אך בשבי הוא יכול לחיות עד 30 שנה. שמות נוספים של האריה בשפה העברית הם ליש, שחל, שחץ ולביא. שם נקבת האריה הוא לביאה ואריה צעיר נקרא כפיר.</p>
+<a href="lion.aspx">...קרא עוד</a>
+<div style="text-align: center;">
+    <img src="Pics/lion.jpg" alt="אריה 1" title="אריה" />
+    <img src="Pics/lion2.jpg" alt="אריה 3" title="2אריה" />
+    <img src="Pics/lion3.png" alt="אריה3" title="3אריה" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+<h2 id="elephant">פיל</h2>
+<p>פיל הוא מונח לקבוצה פוליפילטית של שלושה מיני יונקים – פיל סוואנה אפריקני, פיל יער אפריקני ופיל אסייתי – שהם חיות היבשה הגדולות ביותר בעולם והמינים היחידים ששרדו במשפחת הפיליים. בעבר היו מינים נוספים מהמשפחה, ביניהם הממותה, הפלאולוקסודון והסטגוטטרבלודון שאינם נחשבים לפילים רגילים.</p>
+<p>המאפיין הבולט ביותר של הפילים הוא החדק, שבעזרתו הם שותים, אוכלים ומתרחצים. מפיהם בולטים שני חטי שנהב, שהפכו אותם למטרה לציד רב שהביא לפגיעה קשה בהם. הפיל האסייתי ופיל הסוואנה האפריקני מצויים בסכנת הכחדה, ופיל היער האפריקני נמצא בסכנת הכחדה חמורה.</p>
+<a href="elephant.aspx">...קרא עוד</a>
+<div style="text-align: center">
+    <img src="pics/elephant.png" alt="פיל" title="פיל" />
+    <img src="pics/elephant2.png" alt="פיל2" title="2פיל" />
+    <img src="pics/elephant3.png" alt="פיל3" title="3פיל" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+<h2 id="girrafe">ג'ירף</h2>
+<p>ג'ירף או בשמו העממי ג'ירפה (שם מדעי: Giraffa) הוא סוג פרסתן מעלה גירה ממשפחת הג'ירפיים, הכולל ארבעה מינים. הג'ירף נחשב לחיה היבשתית הגבוהה בעולם[</p>
+<p>לג'ירף רגליים וצוואר ארוכים מאוד. גובה כתפיו כ-3 מטרים מעל הקרקע וגובה ראשו כ־5.3 מטר מעל פני הקרקע. צבעו חום-צהוב עם כתמים כהים וגדולים. צבע זה משמש לו בתור הסוואה מאויביו. ראיית הג'ירף חדה, והוא מיטיב לרוץ ולהימלט מאויביו במהירות של עד 60–65 קמ"ש.</p>
+<a href="girrafe.aspx">...קרא עוד</a>
+<div style="text-align: center">
+    <img src="pics/giraffe.png" alt="פיל" title="פיל" />
+    <img src="pics/giraffe2.png" alt="פיל2" title="2פיל" />
+    <img src="pics/giraffe3.png" alt="פיל3" title="3פיל" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+<h2 id="dodo">דודו</h2>
+<p>דוֹדוֹ (שם מדעי: Raphus cucullatus, נקרא גם Didus ineptus על ידי קארולוס ליניאוס) הוא מין נכחד של עוף חסר יכולת תעופה, מתת-משפחת הרפיים שבמשפחת היוניים. הוא היה אנדמי לאי מאוריציוס שבאוקיינוס ההודי.</p>
+<p>בן המשפחה הקרוב אליו ביותר מבחינה גנטית היה סוליטר רודריג (Pezophaps solitaria, באנגלית: Rodrigues solitaire), שנכחד אף הוא. יונת ניקובר היא בת המשפחה הקרובה ביותר לדודו שהשתמרה עד היום.</p>
+<a href="dodo.aspx">...קרא עוד</a>
+<div style="text-align: center">
+    <img src="pics/dodo.png" alt="דודו" title="דודו" />
+    <img src="pics/dodo2.png" alt="דודו2" title="דודו2" />
+    <img src="pics/dodo3.png" alt="3דודו" title="דודו3" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+<h2 id="crocodile">תנין סיאמי</h2>
+<p>תנין סיאמי (שם מדעי: Crocodylus siamensis) הוא מין של תנין ממשפחת התניניים החי בדרום-מזרח אסיה.</p>
+<p>מין זה בינוני בגודלו אך קטן יחסית למינים אחרים בסוג תנין. אורכו 2.1 מטרים (6.9 רגל) משקלו מגיע ל-40–70 ק"ג, אם כי פרטים הרבה יותר גדולים התגלו, כשהגדול ביותר הגיע לאורך 4 מטרים (13 רגל) ושקל 350 ק"ג. התנינים גדולים הרבה יותר כשהם בשבי. לתנין זה חרטום מוארך, קשקשים עבים מעל העיניים וצבעם ירוק-זית עד ירוק כהה.</p>
+<a href="crocodile.aspx">...קרא עוד</a>
+<div style="text-align: center">
+    <img src="pics/croc.png" alt="דודו" title="דודו" />
+    <img src="pics/croc2.png" alt="2דודו" title="דודו2" />
+    <img src="pics/croc3.png" alt="דודו3" title="דודו3" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+<h2 id="lama">למה מצאויה</h2>
+<p>למה מצויה (שם מדעי: Lama glama) היא מין בסוג למה, ואחד מסמליהם המובהקים של הרי האנדים</p>
+<p>הלמה מוכרת כחיה מבויתת באמריקה, ומשמשת לבשר וכבהמת משא עיקרית בידי הילידים. היא חיה בגבהים של 4,000-2,000 מטרים מעל פני הים. קיים תיעוד לגביה לפחות מאז התקופה הפרה-קולומביאנית. מקור שמה של החיה הוא בשפת הקצ'ואה העתיקה. באזור האנדים מבטאים את שמה לְיָמָה.</p>
+<a href="lama.aspx">...קרא עוד</a>
+<div style="text-align: center">
+    <img src="pics/lama.png" alt="למה" title="למה" />
+    <img src="pics/lama2.png" alt="למה2" title="2למה" />
+    <img src="pics/lama3.png" alt="3למה" title="3למה" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+<h2 id="lamor">למור</h2>
+<p>למור (שם מדעי: Eulemur), הוא סוג פרימטים ממשפחת הלמוריים החיים באי מדגסקר.</p>
+<p>אורך למורים אלה 30–50 ס"מ ומשקלם 2–4 ק"ג. הם בעלי חוטם שחור מוארך ועיניים זהובות גדולות. הם שעירים ובעלי זנב ארוך והם יודעים לקפץ במהירות בין הענפים. הם יכולים לקפץ גם על הקרקע. צבע הפרווה משתנה מאדום אצל המין למור אדום לחום אצל המין למור חום.</p>
+<a href="lamor.aspx">...קרא עוד</a>
+<div style="text-align: center">
+    <img src="pics/lamor1.png" alt="למור1" title="למור1" />
+    <img src="pics/lamor2.png" alt="למו2" title="למור2" />
+    <img src="pics/lamor3.png" alt="למור3" title="למור3" />
+</div>
+<a href="#top"><img src="pics/backToTop.png" alt="goToTopPage" title="go back" style="width: 50px; height: 50px;" /></a>
+<hr />
+<br />
+
+
+</asp:Content>

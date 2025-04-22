@@ -50,7 +50,7 @@ namespace mpWebsite
                 {
                     st += "<tr>";
                     st += "<td class = 'tblTD1'>" + table.Rows[i]["uName"] + "</td>";
-                    st += "<td class = 'tblTD2'>" + table.Rows[i]["IName"] + "</td>";
+                    st += "<td class = 'tblTD2'>" + table.Rows[i]["lName"] + "</td>";
                     st += "<td class = 'tblTD2'>" + table.Rows[i]["fName"] + "</td>";
                     st += "<td class = 'tblTD3' style= 'width: 60px;'>" + table.Rows[i]["email"] + "</td>";
                     st += "<td class = 'tblTD1'>" + table.Rows[i]["gender"] + "</td>";
