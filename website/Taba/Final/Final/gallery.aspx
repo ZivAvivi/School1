@@ -25,27 +25,27 @@
 
 <table style="margin: 0px auto;">
     <tr>
-        <td><img class="imgCell" src="Pics/p1.jpg" onMouseover="picShow('Pics/p1.jpg')" /></td>
-        <td><img class="imgCell" src="Pics/p2.jpg" onMouseover="picShow('Pics/p2.jpg')" /></td>
-        <td><img class="imgCell" src="Pics/p3.jpg" onMouseover="picShow('Pics/p3.jpg')" /></td>
-        <td><img class="imgCell" src="Pics/p4.jpg" onMouseover="picShow('Pics/p4.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic1.jpg" onMouseover="picShow('Pics/pic1.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic2.jpg" onMouseover="picShow('Pics/pic2.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic3.jpg" onMouseover="picShow('Pics/pic3.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic4.jpg" onMouseover="picShow('Pics/pic4.jpg')" /></td>
     </tr>
     <tr>
-      <td><img class="imgCell" src="Pics/p5.jpg" onMouseover="picShow('Pics/p5.jpg')" /></td>
+      <td><img class="imgCell" src="Pics/pic5.jpg" onMouseover="picShow('Pics/pic5.jpg')" /></td>
       <td rowspan="2" colspan="2">
-        <img class="bigPicImg" id="bigPic" src="pics/p11.jpg" />
+        <img class="bigPicImg" id="bigPic" src="pics/pic11.jpg" />
       </td>
-      <td><img class="imgCell" src="Pics/p6.jpg" onMouseover="picShow('Pics/p6.jpg')" /></td>
+      <td><img class="imgCell" src="Pics/pic6.jpg" onMouseover="picShow('Pics/pic6.jpg')" /></td>
     </tr>
     <tr>
-      <td><img class="imgCell" src="Pics/p7.jpg" onMouseover="picShow('Pics/p7.jpg')" /></td>
-      <td><img class="imgCell" src="Pics/p8.jpg" onMouseover="picShow('Pics/p8.jpg')" /></td>
+      <td><img class="imgCell" src="Pics/pic7.jpg" onMouseover="picShow('Pics/pic7.jpg')" /></td>
+      <td><img class="imgCell" src="Pics/pic8.jpg" onMouseover="picShow('Pics/pic8.jpg')" /></td>
     </tr>
     <tr>
-        <td><img class="imgCell" src="Pics/p9.jpg" onMouseover="picShow('Pics/p9.jpg')" /></td>
-        <td><img class="imgCell" src="Pics/p10.jpg" onMouseover="picShow('Pics/p10.jpg')" /></td>
-        <td><img class="imgCell" src="Pics/p11.jpg" onMouseover="picShow('Pics/p11.jpg')" /></td>
-        <td><img class="imgCell" src="Pics/p12.jpg" onMouseover="picShow('Pics/p12.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic9.jpg" onMouseover="picShow('Pics/pic9.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic10.jpg" onMouseover="picShow('Pics/pic10.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic11.jpg" onMouseover="picShow('Pics/pic11.jpg')" /></td>
+        <td><img class="imgCell" src="Pics/pic12.jpg" onMouseover="picShow('Pics/pic12.jpg')" /></td>
   </tr>
 </table>
 </asp:Content>

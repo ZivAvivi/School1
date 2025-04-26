@@ -117,9 +117,11 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="crocodile.aspx" />
     <Content Include="gallery.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="history.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="logOut.aspx" />
     <Content Include="mainPage.aspx" />
     <Content Include="Pics\backToTop.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -183,6 +185,7 @@
     <Content Include="signUp.aspx" />
     <Content Include="simpleQuary.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="unique.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -199,13 +202,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\Helper.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="crocodile.aspx.cs">
-      <DependentUpon>crocodile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="crocodile.aspx.designer.cs">
-      <DependentUpon>crocodile.aspx</DependentUpon>
-    </Compile>
     <Compile Include="gallery.aspx.cs">
       <DependentUpon>gallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,6 +211,27 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="history.aspx.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="history.aspx.designer.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logOut.aspx.cs">
+      <DependentUpon>logOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logOut.aspx.designer.cs">
+      <DependentUpon>logOut.aspx</DependentUpon>
     </Compile>
     <Compile Include="mainPage.aspx.cs">
       <DependentUpon>mainPage.aspx</DependentUpon>
@@ -265,6 +282,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="unique.aspx.cs">
+      <DependentUpon>unique.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="unique.aspx.designer.cs">
+      <DependentUpon>unique.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

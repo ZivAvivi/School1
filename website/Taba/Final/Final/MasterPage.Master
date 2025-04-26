@@ -1,23 +1,21 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Final.MasterPage" %>
-
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+<title></title>
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
 
-    <style>
-        body {
-            direction: rtl;
-            margin-right: 50px;
-            margin-left: 50px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            background-color: #EEF4ED;
-            color: #134074;
-        }
+ <style>
+    body {
+        direction: rtl;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: #EEF4ED;
+        color: #134074;
+    }
    
     .mpH1{
         color: cadetblue; 
@@ -56,19 +54,29 @@
         font-style: italic;
         font-weight: bolder;
     }
+    div{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    hr{
+        height:3pt;
+        background-color: cadetblue;
+    }
 
 </style>
+
 </head>
 <body>
     <table class="mpTable">
     <tr>
         <td class="mpHeader">
             <h1 class="mpH1" id="top">לב אחד</h1>
+            <%=loginMsg %>
         </td>
     </tr>
     <tr>
        <td class="mpMenu">
-           <a href="signUp.aspx">signup</a>
+           <%=menuStr %>
        </td>
     </tr>
     <tr>
