@@ -14,6 +14,7 @@ namespace Final
         public string menuStr = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+
             myTime = DateTime.Now.ToString();
             loginMsg = "<h3>שלום ";
             loginMsg += Session["uName"];
@@ -34,5 +35,7 @@ namespace Final
             }
             menuStr = menu;
         }
+
+        
     }
 }

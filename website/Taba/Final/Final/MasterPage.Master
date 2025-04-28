@@ -65,22 +65,35 @@
 
 </style>
 
+    <script>
+        setInterval("time()", 1000);
+        function time()
+        {
+            var d = new Date();
+            document.getElementById("mytime").innerHTML = d.toLocaleTimeString();
+        }
+    </script>
 </head>
 <body>
     <table class="mpTable">
     <tr>
+        <td>
+            <h2 style="width:60px;"> <%=loginMsg %> </h2>
+        </td>
         <td class="mpHeader">
             <h1 class="mpH1" id="top">לב אחד</h1>
-            <%=loginMsg %>
+        </td>
+        <td>
+            <h2 id="mytime" style="width:120px;">clock</h2>
         </td>
     </tr>
     <tr>
-       <td class="mpMenu">
+       <td class="mpMenu" colspan="3";>
            <%=menuStr %>
        </td>
     </tr>
     <tr>
-         <td class="mpMainPage">
+         <td class="mpMainPage" colspan="3";>
               <!-- place holder -->
                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                </asp:ContentPlaceHolder>
@@ -88,7 +101,7 @@
          </td>
     </tr>
     <tr>
-        <td class="mpMenu">
+        <td class="mpMenu" colspan="3">
             <a href="mailto:ziv.avivi.28.11@gmail.com">מייל</a> - האתר נבנה עי זיו אביבי
         </td>
     </tr>
