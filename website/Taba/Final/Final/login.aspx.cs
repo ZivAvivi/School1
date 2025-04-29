@@ -31,7 +31,10 @@ namespace Final
                     int length = table.Rows.Count;
                     if (length == 0)
                     {
-                        msg = "שם משתמש לא נמצא";
+                        msg = "<div style='text-align: center;'>";
+                        msg += "<h3>שם משתמש לא נכון</h3>";
+                        msg += "<a href='mainPage.aspx'>[המשך]</a>";
+                        msg += "</div>";
                         Response.Redirect("login.aspx");
                     }
                     else

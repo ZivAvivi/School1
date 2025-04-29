@@ -5,6 +5,7 @@
 
 <form name = "loginFrm" id = "loginFrm" method = "post" runat="server">
     <br /><br />
+    <center><h1>התחבר</h1></center>
     <table id = "table1" dir = "rtl" align = "center">
       <tr>
         <td>שם משתמש:</td>
@@ -20,5 +21,6 @@
         </td>
       </tr>
     </table>
+    <%=msg %> <!--TODO: FIX ERROR MSG -->
 </form>
 </asp:Content>

@@ -17,22 +17,26 @@ namespace Final
 
             myTime = DateTime.Now.ToString();
             loginMsg = "<h3>שלום ";
-            loginMsg += Session["uName"];
+            loginMsg += Session["userFName"];
             loginMsg += "</h3>";
 
             string menu = "[<a href=\"mainPage.aspx\">דף הבית</a>]";
-                   menu += "[<a href=\"gallery.aspx\">גלריה</a>]";
+            menu += "[<a href=\"gallery.aspx\">גלריה</a>]";
+            menu += "[<a href=\"loginAdmin.aspx\">התחבר מנהל</a>]";
 
-            if (Session["uName"].ToString() == "אורח")
+            if (Session["userFName"].ToString() == "אורח")
             {
                 loginMsg += "<a href = 'login.aspx'>התחבר</a><br />";
                 loginMsg += "<a href = 'signUp.aspx'>הרשם</a><br />";
-            }
-            else
+            } else if (Session["admin"].ToString() == "yes")
+            {
+                loginMsg += "<a href = 'adminPage.aspx'>דף מנהל</a><br />";
+                loginMsg += "<a href = 'logOut.aspx'>התנתק</a><br />";
+            } else
             {
                 loginMsg += "<a href = 'update.aspx'>עדכון פרטים</a><br />";
                 loginMsg += "<a href = 'logOut.aspx'>התנתק</a><br />";
-            }
+            }   
             menuStr = menu;
         }
 
