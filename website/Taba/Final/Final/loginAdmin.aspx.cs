@@ -29,7 +29,7 @@ namespace Final
                 {
                     
                     msg = "<div style='text-align: center;'>";
-                    msg += "<h3>אינך מנהל, אין לך הרשאות לצפות בדף זה</h3>";
+                    msg += "<h3>שגיאה חזור לדף ראשי</h3>";
                     msg += "<a href='mainPage.aspx'>[המשך]</a>";
                     msg += "</div>";
                 }

@@ -103,11 +103,11 @@
                         <td>
                             <table style="width: 550px;">
                                 <tr>
-                                    <td><input type="checkbox" name="Hobies" value="1"/>Computers </td>
-                                    <td><input type="checkbox" name="Hobies" value="2"/>Music </td>
-                                    <td><input type="checkbox" name="Hobies" value="3" />Movies </td>
-                                    <td><input type="checkbox" name="Hobies" value="4" />TV </td>
-                                    <td><input type="checkbox" name="Hobies" value="5" />Horses </td>
+                                    <td><input type="checkbox" name="Hobies" value="1"/>מחשבים </td>
+                                    <td><input type="checkbox" name="Hobies" value="2"/>מוזיקה </td>
+                                    <td><input type="checkbox" name="Hobies" value="3" />סרטים </td>
+                                    <td><input type="checkbox" name="Hobies" value="4" />טלוויזיה </td>
+                                    <td><input type="checkbox" name="Hobies" value="5" />סוסים </td>
                                 </tr>
                             </table>
                         </td>

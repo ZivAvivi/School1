@@ -34,7 +34,7 @@ namespace Final
                 loginMsg += "<a href = 'logOut.aspx'>התנתק</a><br />";
             } else
             {
-                loginMsg += "<a href = 'update.aspx'>עדכון פרטים</a><br />";
+                loginMsg += "<a href = 'updateUser.aspx'>עדכון פרטים</a><br />";
                 loginMsg += "<a href = 'logOut.aspx'>התנתק</a><br />";
             }   
             menuStr = menu;

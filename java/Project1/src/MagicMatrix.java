@@ -11,7 +11,5 @@ public class MagicMatrix {
         }
     }
 
-    public static boolean isMagic(int[][]m){
-        
-    }
+
 }

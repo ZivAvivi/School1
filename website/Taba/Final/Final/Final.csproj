@@ -118,6 +118,8 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="deleteRecord.aspx" />
+    <Content Include="deleteUser.aspx" />
     <Content Include="gallery.aspx" />
     <Content Include="Global.asax" />
     <Content Include="history.aspx" />
@@ -188,6 +190,7 @@
     <Content Include="simpleQuary.aspx" />
     <Content Include="Site.Master" />
     <Content Include="unique.aspx" />
+    <Content Include="updateUser.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -211,6 +214,20 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\Helper.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="deleteRecord.aspx.cs">
+      <DependentUpon>deleteRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deleteRecord.aspx.designer.cs">
+      <DependentUpon>deleteRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deleteUser.aspx.cs">
+      <DependentUpon>deleteUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deleteUser.aspx.designer.cs">
+      <DependentUpon>deleteUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="gallery.aspx.cs">
       <DependentUpon>gallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -305,6 +322,13 @@
     </Compile>
     <Compile Include="unique.aspx.designer.cs">
       <DependentUpon>unique.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="updateUser.aspx.cs">
+      <DependentUpon>updateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="updateUser.aspx.designer.cs">
+      <DependentUpon>updateUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

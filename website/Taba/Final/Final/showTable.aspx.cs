@@ -28,7 +28,7 @@ namespace Final
             else
             {
                 string fileName = "finalDB.mdf";
-                string tableName = "usersTBL";
+                string tableName = "usersTbl";
                 sqlSelect = "SELECT * FROM " + tableName;
 
                 DataTable table = Helper.ExecuteDataTable(fileName, sqlSelect);
@@ -65,7 +65,7 @@ namespace Final
                         st += "<td class = 'tblTD1'>" + table.Rows[i]["gender"] + "</td>";
                         st += "<td class = 'tblTD2'>" + table.Rows[i]["city"] + "</td>";
                         st += "<td class = 'tblTD1'>" + table.Rows[i]["yearBorn"] + "</td>";
-                        st += "<td class = 'tblTD1'>" + table.Rows[i]["prefix"] + " - " + table.Rows[i]["phone"] + "</td>";
+                        st += "<td class = 'tblTD1' style=\"direction:ltr\">" + table.Rows[i]["prefix"] + " - " + table.Rows[i]["phone"] + "</td>";
                         st += "<td class = 'tblTD1'>" + table.Rows[i]["hob1"] + "</td>";
                         st += "<td class = 'tblTD1'>" + table.Rows[i]["hob2"] + "</td>";
                         st += "<td class = 'tblTD1'>" + table.Rows[i]["hob3"] + "</td>";

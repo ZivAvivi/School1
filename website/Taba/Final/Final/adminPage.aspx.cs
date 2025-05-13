@@ -28,7 +28,9 @@ namespace Final
                 msg += "<a href=\"showTable.aspx\">טבלת משתמשים</a>";
                 msg += "<h2>";
                 msg += "<h2>";
-                msg += "<a href=\"simpleQuary\">שאילטה פשוטה</a>";
+                msg += "<a href=\"simpleQuary\">שאילתה פשוטה</a>";
+                msg += "<h2>";
+                msg += "<a href=\"deleteUser.aspx\">מחק משתמש</a>";
                 msg += "<h2>";
                 msg += "</center>";
             }
