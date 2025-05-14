@@ -16,7 +16,7 @@ namespace Final
         public string sqlSelect = "";
 
         public string yrBorn = "";
-        public string uName, fName, lName, email, prefix, phone, gender, pw;
+        public string uName, fName, lName, email, prefix, phone, gender, pw, city;
         public string hob1, hob2, hob3, hob4, hob5;
 
         protected void Page_Load(object sender, EventArgs e)
@@ -48,6 +48,7 @@ namespace Final
                     prefix = table.Rows[0]["prefix"].ToString().Trim();
                     phone = table.Rows[0]["phone"].ToString().Trim();
                     gender = table.Rows[0]["gender"].ToString().Trim();
+                    city = table.Rows[0]["city"].ToString().Trim();
                     int yearBorn = Convert.ToInt16(table.Rows[0]["yearBorn"]);
                     hob1 = table.Rows[0]["hob1"].ToString().Trim();
                     hob2 = table.Rows[0]["hob2"].ToString().Trim();
@@ -101,7 +102,7 @@ namespace Final
                     // הפעלת שאילתת העדכון
                     Helper.DoQuery(fileName, sqlUpdate);
 
-                    msg = "Success"; //----- הודעה שתוצג בצד הלקוח -----//
+                    msg = "עודכן בהצלחה"; //----- הודעה שתוצג בצד הלקוח -----//
                 }
             }
         }
