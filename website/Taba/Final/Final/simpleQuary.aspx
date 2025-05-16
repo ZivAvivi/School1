@@ -62,31 +62,37 @@
  </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <center>
-    <h1> הצגת נתונים לפי חתך </ h1>
+<center>
+    <% if (Session["uName"].ToString() != "אורח")
+{ %>
+        <h1> הצגת נתונים לפי חתך </ h1>
 
-    <form method = "post" Runat = "Server" >
+        <form method = "post" Runat = "Server" >
 
-      <select name = "field" id = "field" onclick = "detectField();" >
-        <option value = "lName"> שם משפחה </option>
-        <option value = "fName"> שם פרטי </option>
-        <option value = "email"> דוא"ל </option>
-        <option value = "gender"> מגדר </option>
-        <option value = "yearBorn"> שנת לידה </option>
-        <option value = "prefix"> קידומת טלפון </option>
-        <option value = "phone"> טלפון </option>
-        <option value = "hobby"> תחביב </option>
-      </select>
-    <div id="query"></div>
-    <br/> <br/>
-    <input type = "submit" name = "submit" value = "שלח" />
-    </form>
+          <select name = "field" id = "field" onclick = "detectField();" >
+            <option value = "lName"> שם משפחה </option>
+            <option value = "fName"> שם פרטי </option>
+            <option value = "email"> דוא"ל </option>
+            <option value = "gender"> מגדר </option>
+            <option value = "yearBorn"> שנת לידה </option>
+            <option value = "prefix"> קידומת טלפון </option>
+            <option value = "phone"> טלפון </option>
+            <option value = "hobby"> תחביב </option>
+          </select>
+        <div id="query"></div>
+        <br/> <br/>
+        <input type = "submit" name = "submit" value = "שלח" />
+        </form>
 
-    <h2 dir = "ltr"><%= sql %></h2>
-    <table style="border: 1px solid black; margin: 0px auto;">
-        <%=st %>
-    </table>
-    <h3><%=msg %></h3>
+        <h2 dir = "ltr"><%= sql %></h2>
+        <table style="border: 1px solid black; margin: 0px auto;">
+            <%=st %>
+        </table>
+        <h3><%=msg %></h3>
 
-</center>
+    <% } else { %>
+        <h3>אינך מנהל, אין לך הרשאות להיכנס לדף ניהול</h3>
+        <a href = 'First.aspx'>חזור</a>
+    <% } %>
+    </center>
 </asp:Content>

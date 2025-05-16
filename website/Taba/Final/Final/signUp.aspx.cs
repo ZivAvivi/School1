@@ -82,7 +82,7 @@ namespace Final
 
                 st += "</table>";
 
-                string fileName = "usersDB.mdf";
+                string fileName = "finalDB.mdf";
                 string tableName = "usersTbl";
 
                 string sqlSelect = "SELECT * FROM " + tableName + " WHERE uName='" + uName + "'";

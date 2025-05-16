@@ -9,8 +9,8 @@ using System.Web.UI.WebControls;
 
 namespace Final
 {
-	public partial class deleteRecord : System.Web.UI.Page
-	{
+    public partial class deleteRecord : System.Web.UI.Page
+    {
         public string st = "";
         public string msg = "";
         public string sqlDelete = "";
@@ -19,9 +19,10 @@ namespace Final
         {
             if (Session["admin"].ToString() == "no")
             {
-                msg = "<div style='text-HorizontalAlign: center;'>";
-                msg += "<h3>אין לך הרשאה לצפות בדף זה, אנא פנה למנהל המערכת</h3>";
-                msg += "<a hfef='first.aspx'>[המשך]</a>";
+                msg = "<div align='center'><h3>";
+                msg += "אינך מנהל, אין לך הרשאות להיכנס לדף ניהול";
+                msg += "</h3>";
+                msg += "[<a href='First.aspx'>חזור</a>]";
                 msg += "</div>";
             }
             else
@@ -30,8 +31,6 @@ namespace Final
                 string tableName = "usersTbl";
                 string sqlSelect = "SELECT * FROM " + tableName;
                 DataTable table = Helper.ExecuteDataTable(fileName, sqlSelect);
-                
-                string userToDelete = "";
 
                 int length = table.Rows.Count;
                 if (length == 0)
@@ -39,45 +38,50 @@ namespace Final
                 else
                 {
                     st += "<tr>";
-                    st += "<th style = 'width: 100px;'>שם משתמש</th>";
-                    st += "<th style = 'width: 80px;'>שם משפחה</th>";
-                    st += "<th style = 'width: 60px;'>שם פרטי</th>";
-                    st += "<th style = 'width: 140px;'>כתובת דואר אלקטרוני</th>";
-                    st += "<th style = 'width: 60px;'>מגדר</th>";
-                    st += "<th style = 'width: 90px;'>שנת לידה</th>";
-                    st += "<th style = 'width: 100px;'>טלפון</th>";
-                    st += "<th>computers</th>";
-                    st += "<th>Music</th>";
-                    st += "<th>Movies</th>";
-                    st += "<th>TV</th>";
-                    st += "<th>Horses</th>";
-                    st += "<th style = 'width: 100px;'>הערות</th>";
-                    st += "<th style = 'width: 100px;'></th>";
+                    st += "<th class='tblTH' style='width: 100px;'>שם משתמש</th>";
+                    st += "<th class='tblTH' style='width: 80px;'>שם משפחה</th>";
+                    st += "<th class='tblTH' style='width: 60px;'>שם פרטי</th>";
+                    st += "<th class='tblTH' style='width: 140px;'>דואל</th>";
+                    st += "<th class='tblTH' style='width: 60px;'>מגדר</th>";
+                    st += "<th class='tblTH' style='width: 100px;'>ישוב מגורים</th>";
+                    st += "<th class='tblTH'>שנת לידה</th>";
+                    st += "<th class='tblTH' style='width: 100px;'>טלפון</th>";
+                    st += "<th class='tblTH'>מחשבים</th>";
+                    st += "<th class='tblTH'>מוזיקה</th>";
+                    st += "<th class='tblTH'>סרטים</th>";
+                    st += "<th class='tblTH'>טלוויזיה</th>";
+                    st += "<th class='tblTH'>סוסים</th>";
+                    st += "<th class='tblTH' style='width: 100px;'>סיסמה</th>";
+                    st += "<th class='tblTH' style='width: 100px;'>מחיקה</th>";
                     st += "</tr>";
 
                     for (int i = 0; i < length; i++)
                     {
                         st += "<tr>";
-                        st += "<td>" + table.Rows[i]["uName"] + "</td>";
-                        st += "<td>" + table.Rows[i]["lName"] + "</td>";
-                        st += "<td>" + table.Rows[i]["fName"] + "</td>";
-                        st += "<td style = 'width: 60; text-align: left;'>" + table.Rows[i]["email"] + "</td>";
-                        st += "<td>" + table.Rows[i]["gender"] + "</td>";
-                        st += "<td>" + table.Rows[i]["yearBorn"] + "</td>";
-                        st += "<td>" + table.Rows[i]["prefix"] + "-" + table.Rows[i]["phone"] + "</td>";
-                        st += "<td>" + table.Rows[i]["hob1"] + "</td>";
-                        st += "<td>" + table.Rows[i]["hob2"] + "</td>";
-                        st += "<td>" + table.Rows[i]["hob3"] + "</td>";
-                        st += "<td>" + table.Rows[i]["hob4"] + "</td>";
-                        st += "<td>" + table.Rows[i]["hob5"] + "</td>";
-                        st += "<td>" + table.Rows[i]["pw"] + "</td>";
-                        userToDelete = table.Rows[i]["uName"].ToString();
-                        st += "<td style = 'text-align: center; border: 1px solid black;'>";
-                        st += "<a href = 'DeleteRecord.aspx?uName=" + userToDelete + "'>[delete]</a>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["uName"] + "</td>";
+                        st += "<td class='tblTD2'>" + table.Rows[i]["lName"] + "</td>";
+                        st += "<td class='tblTD2'>" + table.Rows[i]["fName"] + "</td>";
+                        st += "<td class='tblTD3' style='width: 60px;'>" + table.Rows[i]["email"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["gender"] + "</td>";
+                        st += "<td class='tblTD2'>" + table.Rows[i]["city"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["yearBorn"] + "</td>";
+                        st += "<td class='tblTD1' style=\"direction:ltr\">" + table.Rows[i]["prefix"] + " - " + table.Rows[i]["phone"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["hob1"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["hob2"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["hob3"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["hob4"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["hob5"] + "</td>";
+                        st += "<td class='tblTD1'>" + table.Rows[i]["pw"] + "</td>";
+
+                        string userToDelete = table.Rows[i]["uName"].ToString();
+                        st += "<td class='tblTD1' style='text-align: center;'>";
+                        st += "<a href='DeleteRecord.aspx?uName=" + userToDelete + "' " +
+                              "onclick=\"return confirm('אתה בטוח שאתה רוצה למחוק את המשתמש הזה');\">[מחיקה]</a>";
+                        st += "</td>";
                         st += "</tr>";
                     }
+                    msg = "נרשמו: " + length + " אנשים";
                 }
-
             }
         }
     }

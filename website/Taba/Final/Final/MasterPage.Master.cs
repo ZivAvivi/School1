@@ -32,11 +32,13 @@ namespace Final
             {
                 loginMsg += "<a href = 'adminPage.aspx'>דף מנהל</a><br />";
                 loginMsg += "<a href = 'logOut.aspx'>התנתק</a><br />";
+                menu += "[<a href=\"seker.aspx\">סקר</a>]";
             } else
             {
                 loginMsg += "<a href = 'updateUser.aspx'>עדכון פרטים</a><br />";
                 loginMsg += "<a href = 'logOut.aspx'>התנתק</a><br />";
-            }   
+                menu += "[<a href=\"seker.aspx\">סקר</a>]";
+            }
             menuStr = menu;
         }
 

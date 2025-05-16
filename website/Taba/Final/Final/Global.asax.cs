@@ -23,6 +23,13 @@ namespace Final
             Session["userFName"] = "אורח";
             Session["userToDel"] = "";
             Session["admin"] = "no";
+            Session["voted"] = false;
+            Application["counter"] = 0;
+            Application["q1"] = 0;
+            Application["q2"] = 0;
+            Application["q3"] = 0;
+            Application["q4"] = 0;
+
         }
 
         void Session_End(object sender, EventArgs e)
@@ -31,6 +38,7 @@ namespace Final
             Session["userFName"] = "אורח";
             Session["userToDel"] = "";
             Session["admin"] = "no";
+            Session["voted"] = false;
         }
     }
 }

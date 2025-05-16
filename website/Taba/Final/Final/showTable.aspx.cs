@@ -47,11 +47,11 @@ namespace Final
                     st += "<th class = 'tblTH' style = 'width: 100px;'>ישוב מגורים</th>";
                     st += "<th class = 'tblTH'>שנת לידה</th>";
                     st += "<th class = 'tblTH' style = 'width: 100px;'>טלפון</th>";
-                    st += "<th class = 'tblTH'>computers</th>";
-                    st += "<th class = 'tblTH'>music</th>";
-                    st += "<th class = 'tblTH'>movies</th>";
-                    st += "<th class = 'tblTH'>TV</th>";
-                    st += "<th class = 'tblTH'>Horses</th>";
+                    st += "<th class = 'tblTH'>מחשבים</th>";
+                    st += "<th class = 'tblTH'>מוזיקה</th>";
+                    st += "<th class = 'tblTH'>סרטים</th>";
+                    st += "<th class = 'tblTH'>טלוויזיה</th>";
+                    st += "<th class = 'tblTH'>סוסים</th>";
                     st += "<th class = 'tblTH' style = 'width: 100px;'>סיסמה</th>";
                     st += "</tr>";
 

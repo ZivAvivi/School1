@@ -66,6 +66,7 @@ namespace Final
                     phone = Request.Form["phone"];
                     gender = Request.Form["gender"];
                     pw = Request.Form["pw"];
+                    city = Request.Form["city"];
 
                     // טיפול בהעדפות תחביבים
                     string hobby = Request.Form["hobby"].ToString(); // אוסף תחביבים שסומנו
@@ -103,6 +104,7 @@ namespace Final
                     Helper.DoQuery(fileName, sqlUpdate);
 
                     msg = "עודכן בהצלחה"; //----- הודעה שתוצג בצד הלקוח -----//
+
                 }
             }
         }

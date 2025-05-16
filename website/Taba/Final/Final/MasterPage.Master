@@ -9,16 +9,16 @@
  <style>
     body {
         direction: rtl;
-        margin-right: 1%;
-        margin-left: 1%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        background-color: #EEF4ED;
-        color: #134074;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        background-color: #E1E1E1;
+        color: #1D1816;
     }
    
     .mpH1{
-        color: cadetblue; 
+        color: #691F0C; 
         text-align: center;
         font-style: italic;
         font-weight: bolder;
@@ -26,22 +26,23 @@
     }
     
     .mpMainPage{
-        height:100%;
+        min-height: 300px;
         width: 100%;
-        border: 1px solid silver
+        border: 1px solid silver;
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
    
     .mpMenu{
-        width:100%; 
-        height: 20px; 
-        border: 1px solid silver; 
+        height: 50px; 
         text-align: center;
+        border: 1px solid silver;
+
     }
     
     .mpHeader{
         width:60%; 
         height:30px; 
-        border: 1px solid silver;
     }
     
     .mpTable{
@@ -51,7 +52,7 @@
         border: 1px solid silver;
     }
     p {
-        color: #0B2545;
+        color: #1D1816;
         font-weight: bolder;
     }
     div{
@@ -60,7 +61,7 @@
     }
     hr{
         height:3pt;
-        background-color: cadetblue;
+        background-color: #691F0C;
     }
 
 </style>
@@ -84,7 +85,7 @@
             <h1 class="mpH1" id="top">לב אחד</h1>
         </td>
         <td style="width:20%;">
-            <h2 id="mytime" style="text-align:center; direction:ltr; ">clock</h2>
+            <h2 id="mytime" style="text-align:center; direction:ltr; "></h2>
         </td>
     </tr>
     <tr>
@@ -100,10 +101,16 @@
               <!------------------>
          </td>
     </tr>
-    <tr>
-        <td class="mpMenu" colspan="3">
-            <a href="mailto:ziv.avivi.28.11@gmail.com">מייל</a> - האתר נבנה עי זיו אביבי
+    <tr  style="direction: ltr; text-align:center;">
+        <td>
+            <%= Application["counter"] %> : מונה מבקרים באתר
         </td>
+        <td>
+            <h3>
+                <a href="mailto:ziv.avivi.28.11@gmail.com">מייל</a> - האתר נבנה עי זיו אביבי
+            </h3>
+        </td>
+        <td></td>
     </tr>
 </table>
     

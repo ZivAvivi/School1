@@ -39,6 +39,7 @@ namespace Final
                     }
                     else
                     {
+                        Application["counter"] = (int)Application["counter"] + 1;
                         Session["uName"] = table.Rows[0]["uName"];
                         Session["userFName"] = table.Rows[0]["fName"];
                         Response.Redirect("mainPage.aspx");

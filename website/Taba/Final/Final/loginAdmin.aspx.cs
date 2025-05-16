@@ -37,6 +37,7 @@ namespace Final
                 {
                     Session["userFName"] = "מנהל";
                     Session["admin"] = "yes";
+                    Session["uName"] = "מנהל";
                     Response.Redirect("mainPage.aspx");
                 }
             }

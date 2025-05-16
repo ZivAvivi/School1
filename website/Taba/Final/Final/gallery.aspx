@@ -2,9 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
     .h1Gal {
-        color: mediumblue;
         text-align: center;
-        font-family: 'Guttman Yad-Brush';
         margin-top: 5px;
     }
 

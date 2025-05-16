@@ -287,22 +287,37 @@
           <% } else { %>
             <option value="052">052</option>
           <% } %>
+          <% if (prefix == "053") { %>
+            <option value="053" selected>053</option>
+          <% } else { %>
+            <option value="053">053</option>
+          <% } %>
           <% if (prefix == "054") { %>
             <option value="054" selected>054</option>
           <% } else { %>
             <option value="054">054</option>
+          <% } %>
+          <% if (prefix == "055") { %>
+            <option value="055" selected>055</option>
+          <% } else { %>
+            <option value="055">055</option>
           <% } %>
           <% if (prefix == "057") { %>
             <option value="057" selected>057</option>
           <% } else { %>
             <option value="057">057</option>
           <% } %>
+          <% if (prefix == "058") { %>
+            <option value="058" selected>058</option>
+          <% } else { %>
+            <option value="058">058</option>
+          <% } %>
           <% if (prefix == "077") { %>
             <option value="077" selected>077</option>
           <% } else { %>
             <option value="077">077</option>
           <% } %>
-        </select>
+       </select>
       </td>
       <td>
         <input type="text" name="mPhone" id="mPhone" style="display:none; background-color:Black; color:White; font-weight:bold;" disabled="disabled" />
