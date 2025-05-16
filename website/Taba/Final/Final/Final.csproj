@@ -120,6 +120,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="deleteRecord.aspx" />
     <Content Include="deleteUser.aspx" />
+    <Content Include="first.aspx" />
     <Content Include="gallery.aspx" />
     <Content Include="Global.asax" />
     <Content Include="history.aspx" />
@@ -227,6 +228,13 @@
     </Compile>
     <Compile Include="deleteUser.aspx.designer.cs">
       <DependentUpon>deleteUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="first.aspx.cs">
+      <DependentUpon>first.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="first.aspx.designer.cs">
+      <DependentUpon>first.aspx</DependentUpon>
     </Compile>
     <Compile Include="gallery.aspx.cs">
       <DependentUpon>gallery.aspx</DependentUpon>
