@@ -154,7 +154,9 @@ function chkPassword(pw) {
         
     if (pw.length > 10) 
         msg = "סיסמה עד 10 תווים";
-    
+
+    if (containsHebrew(pw))
+        msg = "הסיסמה לא יכולה להכיל תווים בעברית";
         
     if (msg != "") {
         document.getElementById("mPw").value = msg;

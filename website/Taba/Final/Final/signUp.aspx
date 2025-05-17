@@ -143,8 +143,6 @@
 
         </form>
 
-        <%=st %>
-
         <h3 style="direction:ltr;">
             <%=sqlInsert %>
          </h3>
