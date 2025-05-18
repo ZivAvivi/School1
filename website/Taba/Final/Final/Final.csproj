@@ -131,6 +131,7 @@
     <Content Include="Pics\backToTop.png" />
     <Content Include="Pics\blue.png" />
     <Content Include="Pics\green.png" />
+    <Content Include="Pics\main.png" />
     <Content Include="Pics\pic1.jpg" />
     <Content Include="Pics\pic10.jpg" />
     <Content Include="Pics\pic11.jpg" />

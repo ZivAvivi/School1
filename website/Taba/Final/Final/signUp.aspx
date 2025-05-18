@@ -135,8 +135,7 @@
 
 
                 <tr>
-                    <td colspan ="2" style="text-align: center;">
-                    <td><input type="submit" name="submit" value=" שלח " /></td>
+                    <td  colspan ="2" style="text-align: center;"><input type="submit" name="submit" value=" שלח " /></td>
                 </tr>
 
             </table>
