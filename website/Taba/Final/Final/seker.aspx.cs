@@ -19,7 +19,7 @@ namespace Final
             {
                 msg += "<div style='text-HorizontalAlign: center;'>";
                 msg += "<h3>אינך מנהל או משתמש רשום, אין לך הראשות לצפות בדף זה</h3>";
-                msg += "<a href='mainPage.aspx'>[המשך]</a>";
+                msg += "<a href='first.aspx'>[המשך]</a>";
                 msg += "</div>";
             }
             else if ((bool)Session["voted"] == true)

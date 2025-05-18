@@ -27,7 +27,7 @@ namespace Final
             if (uName == "אורח")
             {
                 msg = "אינך משתמש רשום במערכת";
-                Response.Redirect("mainPage.aspx");
+                Response.Redirect("first.aspx");
             }
             else
             {

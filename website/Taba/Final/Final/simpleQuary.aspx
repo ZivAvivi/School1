@@ -92,7 +92,7 @@
 
     <% } else { %>
         <h3>אינך מנהל, אין לך הרשאות להיכנס לדף ניהול</h3>
-        <a href = 'First.aspx'>חזור</a>
+        <a href = 'first.aspx'>חזור</a>
     <% } %>
     </center>
 </asp:Content>

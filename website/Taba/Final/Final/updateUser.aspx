@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="updateUser.aspx.cs" Inherits="Final.updateUser" %>
+﻿7<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="updateUser.aspx.cs" Inherits="Final.updateUser" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         h1 { text-align: center; color: blueviolet; }

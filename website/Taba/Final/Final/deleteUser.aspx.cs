@@ -22,7 +22,7 @@ namespace Final
                 msg = "<div align='center'><h3>";
                 msg += "אינך מנהל, אין לך הרשאות להיכנס לדף ניהול";
                 msg += "</h3>";
-                msg += "[<a href='First.aspx'>חזור</a>]";
+                msg += "[<a href='first.aspx'>חזור</a>]";
                 msg += "</div>";
             }
             else
