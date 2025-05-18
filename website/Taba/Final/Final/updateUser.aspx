@@ -1,7 +1,7 @@
-﻿7<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="updateUser.aspx.cs" Inherits="Final.updateUser" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="updateUser.aspx.cs" Inherits="Final.updateUser" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-        h1 { text-align: center; color: blueviolet; }
+        h1 { text-align: center; }
         h2 { text-align: center; direction: ltr; }
         h3 { text-align: center; direction: ltr; }
         td { width: 150px; }
@@ -138,7 +138,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>עדכון פרטים אישיים</h1>
+<h1>עדכון פרטים אישיים</h1>
 <form method="post" runat="server" onsubmit="return chkForm();">
   <table>
     <tr>
@@ -194,7 +194,18 @@
       </td>
       <td></td>
     </tr>
-          <tr>
+
+    <tr>
+      <td>שנת לידה:</td>
+      <td>
+        <select name="yearBorn" id="yearBorn">
+          <%= yrBorn %>
+        </select>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
       <td>יישוב מגורים:</td> 
       <td>
         <select name="city" id="city">
@@ -408,9 +419,5 @@
         <h3 style="direction:ltr"><%=sqlSelect %></h3>
         <h3 style="direction:ltr"><%=sqlUpdate %></h3>
     </center>
-    
-    
-
-    
 
 </asp:Content>

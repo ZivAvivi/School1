@@ -16,6 +16,7 @@ namespace Final
         public string sqlSelect = "";
 
         public string yrBorn = "";
+        public int yearBorn;
         public string uName, fName, lName, email, prefix, phone, gender, pw, city;
         public string hob1, hob2, hob3, hob4, hob5;
 
@@ -49,13 +50,24 @@ namespace Final
                     phone = table.Rows[0]["phone"].ToString().Trim();
                     gender = table.Rows[0]["gender"].ToString().Trim();
                     city = table.Rows[0]["city"].ToString().Trim();
-                    int yearBorn = Convert.ToInt16(table.Rows[0]["yearBorn"]);
+                    yearBorn = Convert.ToInt16(table.Rows[0]["yearBorn"]);
                     hob1 = table.Rows[0]["hob1"].ToString().Trim();
                     hob2 = table.Rows[0]["hob2"].ToString().Trim();
                     hob3 = table.Rows[0]["hob3"].ToString().Trim();
                     hob4 = table.Rows[0]["hob4"].ToString().Trim();
                     hob5 = table.Rows[0]["hob5"].ToString().Trim();
                     pw = table.Rows[0]["pw"].ToString().Trim();
+
+                    yrBorn = "";
+                    int currentYear = DateTime.Now.Year;
+                    int userYear = Convert.ToInt16(yearBorn);
+                    for (int year = currentYear; year >= 1950; year--)
+                    {
+                        if (year == userYear)
+                            yrBorn += $"<option value='{year}' selected>{year}</option>";
+                        else
+                            yrBorn += $"<option value='{year}'>{year}</option>";
+                    }
                 }
                 if (IsPostBack)
                 {
@@ -67,6 +79,7 @@ namespace Final
                     gender = Request.Form["gender"];
                     pw = Request.Form["pw"];
                     city = Request.Form["city"];
+                    yrBorn = Request.Form["yearBorn"];
 
                     // טיפול בהעדפות תחביבים
                     string hobby = Request.Form["hobby"].ToString(); // אוסף תחביבים שסומנו
@@ -92,6 +105,8 @@ namespace Final
                     sqlUpdate += "prefix = '" + prefix + "', ";
                     sqlUpdate += "phone = '" + phone + "', ";
                     sqlUpdate += "gender = '" + gender + "', ";
+                    sqlUpdate += "city = N'" + city + "', ";
+                    sqlUpdate += "yearBorn = " + yrBorn + ", ";
                     sqlUpdate += "hob1 = '" + hob1 + "', ";
                     sqlUpdate += "hob2 = '" + hob2 + "', ";
                     sqlUpdate += "hob3 = '" + hob3 + "', ";
@@ -102,6 +117,16 @@ namespace Final
 
                     // הפעלת שאילתת העדכון
                     Helper.DoQuery(fileName, sqlUpdate);
+
+                    int currentYear = DateTime.Now.Year;
+                    int userYear = Convert.ToInt16(yrBorn);
+                    for (int year = currentYear; year >= 1950; year--)
+                    {
+                        if (year == userYear)
+                            yrBorn += $"<option value='{year}' selected>{year}</option>";
+                        else
+                            yrBorn += $"<option value='{year}'>{year}</option>";
+                    }
 
                     msg = "עודכן בהצלחה"; //----- הודעה שתוצג בצד הלקוח -----//
 

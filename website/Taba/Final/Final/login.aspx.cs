@@ -11,7 +11,7 @@ namespace Final
 {
     public partial class login : System.Web.UI.Page
     {
-        public string msg;
+        public string msg = "";
         public string sqllogin;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -24,26 +24,21 @@ namespace Final
                 string tableName = "usersTbl";
 
                 sqllogin = "SELECT * FROM " + tableName + " WHERE uName = '" + uName + "' AND pw = '" + pass + "'";
-                
-                if (Helper.IsExist(fileName, sqllogin))
+
+                DataTable table = Helper.ExecuteDataTable(fileName, sqllogin);
+                if (table.Rows.Count > 0)
                 {
-                    DataTable table = Helper.ExecuteDataTable(fileName, sqllogin);
-                    int length = table.Rows.Count;
-                    if (length == 0)
-                    {
-                        msg = "<div style='text-align: center;'>";
-                        msg += "<h3>שם משתמש לא נכון</h3>";
-                        msg += "<a href='mainPage.aspx'>[המשך]</a>";
-                        msg += "</div>";
-                        Response.Redirect("login.aspx");
-                    }
-                    else
-                    {
-                        Application["counter"] = (int)Application["counter"] + 1;
-                        Session["uName"] = table.Rows[0]["uName"];
-                        Session["userFName"] = table.Rows[0]["fName"];
-                        Response.Redirect("mainPage.aspx");
-                    }
+                    Application["counter"] = (int)Application["counter"] + 1;
+                    Session["uName"] = table.Rows[0]["uName"];
+                    Session["userFName"] = table.Rows[0]["fName"];
+                    Response.Redirect("mainPage.aspx");
+                }
+                else
+                {
+                    msg = "<div style='text-align: center;'>";
+                    msg += "<h3>שם משתמש או סיסמה לא נכונים</h3>";
+                    msg += "<a href='mainPage.aspx'>[המשך]</a>";
+                    msg += "</div>";
                 }
             }
         }

@@ -1,42 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\",
+  "WorkspaceRootPath": "D:\\school\\School1\\website\\Taba\\Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\simplequary.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\simplequary.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|d:\\school\\school1\\website\\taba\\final\\final\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\showtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\showtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\seker.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\seker.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\loginadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\loginadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\deleteuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\deleteuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\updateuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\updateuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\updateuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|d:\\school\\school1\\website\\taba\\final\\final\\updateuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\updateuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\first.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\first.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|d:\\school\\school1\\website\\taba\\final\\final\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|D:\\school\\School1\\website\\Taba\\Final\\final\\loginadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\loginadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|d:\\school\\school1\\website\\taba\\final\\final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,80 +30,54 @@
       "DocumentGroups": [
         {
           "DockedHeight": 239,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "simpleQuary.aspx",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\simpleQuary.aspx",
-              "RelativeDocumentMoniker": "Final\\simpleQuary.aspx",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\simpleQuary.aspx",
-              "RelativeToolTip": "Final\\simpleQuary.aspx",
+              "DocumentIndex": 1,
+              "Title": "updateUser.aspx",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\Final\\Final\\updateUser.aspx",
+              "RelativeDocumentMoniker": "Final\\updateUser.aspx",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\Final\\Final\\updateUser.aspx",
+              "RelativeToolTip": "Final\\updateUser.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-18T07:31:00.04Z",
+              "WhenOpened": "2025-05-18T16:23:03.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "showTable.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx.cs",
-              "RelativeDocumentMoniker": "Final\\showTable.aspx.cs",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx.cs",
-              "RelativeToolTip": "Final\\showTable.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\Final\\Final\\login.aspx.cs",
+              "RelativeDocumentMoniker": "Final\\login.aspx.cs",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\Final\\Final\\login.aspx.cs",
+              "RelativeToolTip": "Final\\login.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:30:40.149Z",
+              "WhenOpened": "2025-05-18T16:20:29.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "seker.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\seker.aspx.cs",
-              "RelativeDocumentMoniker": "Final\\seker.aspx.cs",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\seker.aspx.cs",
-              "RelativeToolTip": "Final\\seker.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:13:54.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "deleteUser.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\deleteUser.aspx.cs",
-              "RelativeDocumentMoniker": "Final\\deleteUser.aspx.cs",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\deleteUser.aspx.cs",
-              "RelativeToolTip": "Final\\deleteUser.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:12:44.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "deleteUser.aspx",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\deleteUser.aspx",
-              "RelativeDocumentMoniker": "Final\\deleteUser.aspx",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\deleteUser.aspx",
-              "RelativeToolTip": "Final\\deleteUser.aspx",
+              "Title": "login.aspx",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\Final\\Final\\login.aspx",
+              "RelativeDocumentMoniker": "Final\\login.aspx",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\Final\\Final\\login.aspx",
+              "RelativeToolTip": "Final\\login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-18T07:12:36.446Z",
+              "WhenOpened": "2025-05-18T16:20:03.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "loginAdmin.aspx",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\loginAdmin.aspx",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\Final\\Final\\loginAdmin.aspx",
               "RelativeDocumentMoniker": "Final\\loginAdmin.aspx",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\loginAdmin.aspx",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\Final\\Final\\loginAdmin.aspx",
               "RelativeToolTip": "Final\\loginAdmin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -128,41 +86,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "updateUser.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\updateUser.aspx.cs",
-              "RelativeDocumentMoniker": "Final\\updateUser.aspx.cs",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\updateUser.aspx.cs",
-              "RelativeToolTip": "Final\\updateUser.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "deleteUser.aspx.cs",
+              "DocumentMoniker": "D:\\school\\School1\\website\\Taba\\Final\\Final\\deleteUser.aspx.cs",
+              "RelativeDocumentMoniker": "Final\\deleteUser.aspx.cs",
+              "ToolTip": "D:\\school\\School1\\website\\Taba\\Final\\Final\\deleteUser.aspx.cs",
+              "RelativeToolTip": "Final\\deleteUser.aspx.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:47:40.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "updateUser.aspx",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\updateUser.aspx",
-              "RelativeDocumentMoniker": "Final\\updateUser.aspx",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\updateUser.aspx",
-              "RelativeToolTip": "Final\\updateUser.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-18T06:47:16.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "first.aspx",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\first.aspx",
-              "RelativeDocumentMoniker": "Final\\first.aspx",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\first.aspx",
-              "RelativeToolTip": "Final\\first.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-17T08:11:54.206Z",
+              "WhenOpened": "2025-05-18T07:12:44.442Z",
               "EditorCaption": ""
             }
           ]

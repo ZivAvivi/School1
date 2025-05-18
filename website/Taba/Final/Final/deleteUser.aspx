@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="deleteRecord.aspx.cs" Inherits="Final.deleteRecord" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-        <style type="text/css">
+    <style type="text/css">
         h1 {
             color: red; 
             text-align: center;
