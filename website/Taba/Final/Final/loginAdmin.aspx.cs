@@ -30,7 +30,7 @@ namespace Final
                 {
                     
                     msg = "<div style='text-align: center;'>";
-                    msg += "<h2>שגיאה חזור לדף ראשי</h2>";
+                    msg += "<h2>שם משתמש או סיסמה לא נכונים</h2>";
                     msg += "<a href='mainPage.aspx'>[המשך]</a>";
                     msg += "</div>";
                 }

@@ -21,9 +21,10 @@ namespace Final
             loginMsg += Session["userFName"];
             loginMsg += "</h3>";
 
-            string menu = "[<a href=\"mainPage.aspx\">דף הבית</a>]";
+            string menu = "[<a href=\"mainPage.aspx\">דף תוכן</a>]";
+            menu += "[<a href=\"first.aspx\">דף ראשי</a>]";
             menu += "[<a href=\"gallery.aspx\">גלריה</a>]";
-            menu += "[<a href=\"loginAdmin.aspx\">התחבר מנהל</a>]";
+            menu += "[<a href=\"loginAdmin.aspx\">כניסת מנהל</a>]";
 
             if (Session["userFName"].ToString() == "אורח")
             {
