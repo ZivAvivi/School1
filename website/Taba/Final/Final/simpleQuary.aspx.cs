@@ -80,7 +80,7 @@ namespace Final
                     st += "<th style='text-align: center; border: 1px solid black; width: 140px;'>דוא\"ל</th>";
                     st += "<th style='text-align: center; border: 1px solid black; width: 60px;'>מגדר</th>";
                     st += "<th style='text-align: center; border: 1px solid black;'>שנת לידה</th>";
-                    st += "<th style='text-align: center; border: 1px solid black; width: 100px;'>קידומת-טלפון</th>";
+                    st += "<th style='text-align: center; border: 1px solid black; width: 150px;'>קידומת-טלפון</th>";
                     st += "<th style='text-align: center; border: 1px solid black;'>מחשבים</th>";
                     st += "<th style='text-align: center; border: 1px solid black;'>מוזיקה</th>";
                     st += "<th style='text-align: center; border: 1px solid black;'>סרטים</th>";

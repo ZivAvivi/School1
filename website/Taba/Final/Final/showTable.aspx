@@ -2,8 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <style type="text/css">
-        h1 {
-            color: red; 
+        h1 { 
             text-align: center;
             }
         h2{

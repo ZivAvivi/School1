@@ -46,7 +46,7 @@ namespace Final
                     st += "<th class = 'tblTH' style = 'width: 60px;'>מגדר</th>";
                     st += "<th class = 'tblTH' style = 'width: 100px;'>ישוב מגורים</th>";
                     st += "<th class = 'tblTH'>שנת לידה</th>";
-                    st += "<th class = 'tblTH' style = 'width: 100px;'>טלפון</th>";
+                    st += "<th class = 'tblTH' style = 'width: 150px;'>טלפון</th>";
                     st += "<th class = 'tblTH'>מחשבים</th>";
                     st += "<th class = 'tblTH'>מוזיקה</th>";
                     st += "<th class = 'tblTH'>סרטים</th>";
