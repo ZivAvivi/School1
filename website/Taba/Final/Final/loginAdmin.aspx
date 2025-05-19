@@ -25,7 +25,11 @@
           </tr>
 
         </table>
-        <center><%=msg %></center>
+        <center>
+            <%=msg %>
+            <br />
+            <p style="direction:ltr"><%=sqllogin %></p>
+        </center>
     </form>
 
 

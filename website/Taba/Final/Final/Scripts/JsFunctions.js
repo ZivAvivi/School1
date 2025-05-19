@@ -8,7 +8,7 @@
         isOk = false;
 
     var phone = document.getElementById("phoneNum").value;
-    if (chkphone(phone)) 
+    if (!chkphone(phone)) 
         isOk = false;
 
     var email = document.getElementById("email").value;
@@ -125,7 +125,7 @@ function chkphone(phone) {
     }
     else 
         document.getElementById("mPhone").style.display = "none";
-    
+    return true;
 }
 
 function chkhobbies(hobies){

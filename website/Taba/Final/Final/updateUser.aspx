@@ -9,144 +9,24 @@
         table { margin: 0px auto; }
         .cdHob { width: 100px; }
     </style>
-    <script>
-        function chkForm() {
-            // בדיקת שדה שם פרטי --- שם פרטי קצר מדי או לא קיים ---//
-            var fName = document.getElementById("fName").value;
-            if (fName.length < 2) {
-                document.getElementById("mFName").value = "שם פרטי קצר מדי או לא קיים";
-                document.getElementById("mFName").style.display = "inline";
-                return false;
-            } else {
-                document.getElementById("mFName").style.display = "none";
-            }
+    <script src="Scripts/JsFunctions.js"></script>
 
-            // בדיקת שדה שם משפחה --- שם משפחה קצר מדי או לא קיים ---//
-            var lName = document.getElementById("lName").value;
-            if (lName.length < 2) {
-                document.getElementById("mLName").value = "שם משפחה קצר מדי או לא קיים";
-                document.getElementById("mLName").style.display = "inline";
-                return false;
-            } else {
-                document.getElementById("mLName").style.display = "none";
-            }
-
-            // בדיקת תקינות לכתובת דוא"ל ---//
-            var email = document.getElementById("email").value;
-            var size = email.length;
-            var atSign = email.indexOf('@');
-            var dotSign = email.indexOf('.', atSign);
-
-            var msg = "";
-            if (size < 6) {
-                msg = "כתובת דוא\"ל קצרה מדי או לא קיימת";
-            } else if (atSign == -1) {
-                msg = "סימן @ לא קיים בכתובת";
-            } else if (atSign != email.lastIndexOf('@')) {
-                msg = "אסור יותר מ- @ אחד בכתובת דוא\"ל";
-            } else if (atSign < 2 || email.lastIndexOf('@') == size - 1) {
-                msg = "מיקום @ אינו יכול להיות בתחילת או בסוף הכתובת";
-            } else if (email.indexOf('.') == 0 || email.lastIndexOf('.') == size - 1) {
-                msg = "נקודה לא יכולה להיות בראשון או באחרון בכתובת";
-            } else if (dotSign - atSign <= 1) {
-                msg = "חייבת להיות לפחות 2 תווים אחרי סימן @- נקודה";
-            } else if (!isQuot(email)) {
-                msg = "כתובת דוא\"ל לא יכולה להכיל גרשיים";
-            } else if (!isValidString(email)) {
-                msg = "כתובת דוא\"ל לא יכולה להכיל תוים אסורים";
-            } else if (!isHebrew(email)) {
-                msg = "כתובת דוא\"ל לא יכולה להכיל עברית";
-            }
-
-            if (msg != "") {
-                document.getElementById("mEmail").value = msg;
-                document.getElementById("mEmail").style.display = "inline";
-                return false;
-            } else {
-                document.getElementById("mEmail").style.display = "none";
-            }
-
-            // בדיקת מספר טלפון --- מספר הטלפון חייב להיות בן 7 ספרות ---//
-            var phone = document.getElementById("phone").value;
-            if (isEmpty(phone) || phone.length <= 8 || isNaN(phone)) {
-                msg = "מספר הטלפון חייב להיות בן 7 ספרות";
-                document.getElementById("mPhone").value = msg;
-                document.getElementById("mPhone").style.display = "inline";
-                msg = "";
-                return false;
-            } else {
-                document.getElementById("mPhone").style.display = "none";
-            }
-
-            // בדיקה עבור סיסמא --- הסיסמא חייבת להיות בין 6 - 8 תווים ---//
-            var pw = document.getElementById("pw").value;
-            var pw1 = document.getElementById("pw1").value;
-
-            alert("pw = " + pw);
-
-            if (pw.length < 6 || pw.length > 8) {
-                msg = "הסיסמא חייבת להיות בין 6 - 8 תווים";
-                document.getElementById("mPw").value = msg;
-                document.getElementById("mPw").style.display = "inline";
-                return false;
-            } else {
-                document.getElementById("mPw").style.display = "none";
-
-                // בדיקה האם הסיסמא שווה לסיסמת האימות --- הסיסמא וסיסמת האימות אינם זהות ---//
-                if (pw != pw1) {
-                    msg = "הסיסמא וסיסמת האימות אינם זהות";
-                    alert(msg);
-                    document.getElementById("mPw1").innerHTML = msg;
-                    document.getElementById("mPw1").style.display = "inline";
-                    msg = "";
-                    return false;
-                } else {
-                    document.getElementById("mPw1").style.display = "none";
-                }
-
-                alert("הטופס תקין");
-                return true;
-            }
-
-            //--- אם מכיל גרש או גרשיים - לא תקין ---//
-            function isQuot(mail) {
-                var quot = '\'';
-                var quot1 = '"';
-                if (mail.indexOf(quot) != -1 || mail.indexOf(quot1) != -1)
-                    return false;
-                return true;
-            }
-
-            //--- מכיל תו
-            function isValidString(mail) {
-                var badChr = "$%^&*()-![]{}<>?";
-                var len = badChr.length;
-
-                var i = 0, pos, ch;
-                while (i < len) {
-                    ch = badChr.charAt(i);
-                    pos = mail.indexOf(ch);
-                    if (pos != -1)
-                        return false;
-                    i++;
-                }
-                return true;
-            }
-        
-        }
-    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 <h1>עדכון פרטים אישיים</h1>
 <form method="post" runat="server" onsubmit="return chkForm();">
   <table>
-    <tr>
-      <td>שם משתמש</td>
+   <tr>
+    <td>שם משתמש</td>
       <td>
-        <input type="text" name="uName" disabled="disabled" value="<%= uName %>" />
+        <input type="text" name="uName" id="uName" disabled="disabled" value="<%= uName %>" />
       </td>
-      <td></td>
+      <td>
+        <input type="text" id="mUName" size="30"
+               style="display: none; background-color: var(--light-bg); font-weight:bold;"
+               disabled="disabled" />
+      </td>
     </tr>
     <tr>
       <td>שם פרטי</td>
@@ -155,7 +35,7 @@
       </td>
       <td>
         <input type="text" id="mFName" size="30"
-               style="display: none; background-color: Silver; font-weight:bold;"
+               style="display: none; background-color: var(--light-bg); font-weight:bold;"
                disabled = "disabled" />
       </td>
     </tr>
@@ -166,18 +46,18 @@
       </td>
       <td>
         <input type="text" id="mLName" size="30"
-               style="display: none; background-color: Silver; font-weight:bold;"
+               style="display: none; background-color:var(--light-bg); font-weight:bold;"
                disabled = "disabled" />
       </td>
     </tr>
       <tr>
       <td>כתובת דוא"ל</td>
       <td>
-        <input type="text" id="email" name="email" value="<%= email %>" />
+        <input type="email" id="email" name="email" value="<%= email %>" maxlength="30" />
       </td>
       <td>
         <input type="text" id="mEmail" size="30"
-               style="display: none; background-color: Silver; font-weight:bold;"
+               style="display: none; background-color:var(--light-bg); font-weight:bold;"
                disabled = "disabled" />
       </td>
     </tr>
@@ -261,7 +141,7 @@
       <tr>
       <td>טלפון:</td>
       <td>
-        <input type="text" name="phone" id="phone" size="7" value="<%= phone %>" /> -
+        <input type="text" name="phone" id="phoneNum" size="7" value="<%= phone %>" /> -
         <select name="prefix" id="prefix">
           <% if (prefix == "02") { %>
             <option value="02" selected>02</option>
@@ -331,7 +211,7 @@
        </select>
       </td>
       <td>
-        <input type="text" name="mPhone" id="mPhone" style="display:none; background-color:Black; color:White; font-weight:bold;" disabled="disabled" />
+        <input type="text" name="mPhone" id="mPhone" size="30" style="display:none; background-color:var(--light-bg); font-weight:bold;" disabled="disabled" />
       </td>
     </tr>
       <tr>
@@ -341,43 +221,46 @@
           <tr>
             <td class="cdHob">
               <% if (hob1 == "T") { %>
-                <input type="checkbox" name="hobby" value="1" checked="checked" />
+                <input type="checkbox" name="Hobies" value="1" checked="checked" />
               <% } else { %>
-                <input type="checkbox" name="hobby" value="1" />
+                <input type="checkbox" name="Hobies" value="1" />
               <% } %>
-              Computers
+              מחשבים
             </td>
             <td class="cdHob">
               <% if (hob2 == "T") { %>
-                <input type="checkbox" name="hobby" value="2" checked="checked" />
+                <input type="checkbox" name="Hobies" value="2" checked="checked" />
               <% } else { %>
-                <input type="checkbox" name="hobby" value="2" />
+                <input type="checkbox" name="Hobies" value="2" />
               <% } %>
-              Music
+              מוזיקה
             </td>
             <td class="cdHob">
               <% if (hob3 == "T") { %>
-                <input type="checkbox" name="hobby" value="3" checked="checked" />
+                <input type="checkbox" name="Hobies" value="3" checked="checked" />
               <% } else { %>
-                <input type="checkbox" name="hobby" value="3" />
+                <input type="checkbox" name="Hobies" value="3" />
               <% } %>
-              Movies
+              סרטים
             </td>
             <td class="cdHob">
               <% if (hob4 == "T") { %>
-                <input type="checkbox" name="hobby" value="4" checked="checked" />
+                <input type="checkbox" name="Hobies" value="4" checked="checked" />
               <% } else { %>
-                <input type="checkbox" name="hobby" value="4" />
+                <input type="checkbox" name="Hobies" value="4" />
               <% } %>
-              TV
+              טלווזיה
             </td>
             <td class="cdHob">
               <% if (hob5 == "T") { %>
-                <input type="checkbox" name="hobby" value="5" checked="checked" />
+                <input type="checkbox" name="Hobies" value="5" checked="checked" />
               <% } else { %>
-                <input type="checkbox" name="hobby" value="5" />
+                <input type="checkbox" name="Hobies" value="5" />
               <% } %>
-              Horses
+              סוסים
+            </td>
+            <td>
+              <input type="text" name="mHobies" id="mHobies" style="display:none; background-color:var(--light-bg); font-weight:bold;" disabled="disabled" />
             </td>
           </tr>
         </table>
@@ -388,23 +271,23 @@
       <td>סיסמא:</td>
       <td>
         <input type="password" name="pw" id="pw" size="10" value="<%= pw %>"
-               maxlength="8" />
-        <span style="color: red;">*תווים 10 עד 8</span>
+               maxlength="10" />
+        <span style="color: red;">*תווים 10 עד 6</span>
       </td>
       <td>
-        <input type="text" name="mPw" id="mPw" style="display:none;
-               background-color:Black; color:White; font-weight:bold;" disabled="disabled" />
+        <input type="text" name="mPw" id="mPw" size="30" style="display:none;
+               background-color:var(--light-bg); font-weight:bold;" disabled="disabled" />
       </td>
     </tr>
     <tr>
       <td>אימות סיסמא:</td>
       <td>
-        <input type="password" name="pw1" id="pw1" size="10" value="<%= pw %>"
-               maxlength="8" />
+        <input type="password" name="conPw" id="conPw" size="10" value="<%= pw %>"
+               maxlength="10" />
       </td>
       <td>
-        <input type="text" name="mPw1" id="mPw1" style="display:none;
-               background-color:Black; color:White; font-weight:bold;" disabled="disabled" />
+        <input type="text" name="mCpw" id="mCpw" size="30" style="display:none;
+               background-color:var(--light-bg); font-weight:bold;" disabled="disabled" />
       </td>
     </tr>
     <tr>

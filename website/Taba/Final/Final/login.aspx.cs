@@ -36,7 +36,8 @@ namespace Final
                 else
                 {
                     msg = "<div style='text-align: center;'>";
-                    msg += "<h3>שם משתמש או סיסמה לא נכונים</h3>";
+                    msg += "<h2>שם משתמש או סיסמה לא נכונים</h2>";
+                    msg += "<h3 style=\"direction:ltr\">" + sqllogin + "</h3>";
                     msg += "<a href='mainPage.aspx'>[המשך]</a>";
                     msg += "</div>";
                 }

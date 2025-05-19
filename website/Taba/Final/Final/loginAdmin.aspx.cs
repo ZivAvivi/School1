@@ -12,7 +12,8 @@ namespace Final
 	public partial class loginAdmin : System.Web.UI.Page
 	{
         public string msg;
-		protected void Page_Load(object sender, EventArgs e)
+        public string sqllogin;
+        protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.Form["submit"] != null)
             {
@@ -22,14 +23,14 @@ namespace Final
                 string fileName = "finalDB.mdf";
                 string tableName = "adminTbl";
 
-                string sqllogin = "SELECT * FROM " + tableName + " WHERE mName = '" + mName + "' AND pw = '" + pw + "'";
+                sqllogin = "SELECT * FROM " + tableName + " WHERE mName = '" + mName + "' AND pw = '" + pw + "'";
                 DataTable table = Helper.ExecuteDataTable(fileName, sqllogin);
                 int length = table.Rows.Count;
                 if (length == 0)
                 {
                     
                     msg = "<div style='text-align: center;'>";
-                    msg += "<h3>שגיאה חזור לדף ראשי</h3>";
+                    msg += "<h2>שגיאה חזור לדף ראשי</h2>";
                     msg += "<a href='mainPage.aspx'>[המשך]</a>";
                     msg += "</div>";
                 }

@@ -22,5 +22,7 @@
       </tr>
     </table>
 </form>
-<%=msg %> <!--TODO: FIX ERROR MSG -->
+
+<%=msg %>
+ 
 </asp:Content>

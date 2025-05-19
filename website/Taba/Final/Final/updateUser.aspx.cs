@@ -82,7 +82,7 @@ namespace Final
                     yrBorn = Request.Form["yearBorn"];
 
                     // טיפול בהעדפות תחביבים
-                    string hobby = Request.Form["hobby"].ToString(); // אוסף תחביבים שסומנו
+                    string hobby = Request.Form["Hobies"].ToString(); // אוסף תחביבים שסומנו
 
                     hob1 = "F";
                     hob2 = "F";
