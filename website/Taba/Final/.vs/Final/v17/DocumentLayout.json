@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\scripts\\jsfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\scripts\\jsfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\updateuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\updateuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\adminpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\adminpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\final\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\adminpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\adminpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\showtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\showtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\deleteuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\simplequary.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\final\\simplequary.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\simplequary.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\showtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\final\\showtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\showtable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|c:\\users\\user1\\desktop\\school\\website\\taba\\final\\final\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{6BD43EE2-F9C1-4A9E-8991-A8055C65AD29}|Final\\Final.csproj|solutionrelative:final\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +54,89 @@
       "DocumentGroups": [
         {
           "DockedHeight": 239,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "signUp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\signUp.aspx.cs",
+              "RelativeDocumentMoniker": "Final\\signUp.aspx.cs",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\signUp.aspx.cs",
+              "RelativeToolTip": "Final\\signUp.aspx.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAQwCkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:39:28.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "signUp.aspx",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\signUp.aspx",
+              "RelativeDocumentMoniker": "Final\\signUp.aspx",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\signUp.aspx",
+              "RelativeToolTip": "Final\\signUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-19T05:39:16.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "updateUser.aspx",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\updateUser.aspx",
+              "RelativeDocumentMoniker": "Final\\updateUser.aspx",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\updateUser.aspx",
+              "RelativeToolTip": "Final\\updateUser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-19T05:36:24.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsFunctions.js",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\Scripts\\JsFunctions.js",
+              "RelativeDocumentMoniker": "Final\\Scripts\\JsFunctions.js",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\Scripts\\JsFunctions.js",
+              "RelativeToolTip": "Final\\Scripts\\JsFunctions.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-19T05:35:47.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "adminPage.aspx",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\adminPage.aspx",
+              "RelativeDocumentMoniker": "Final\\adminPage.aspx",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\adminPage.aspx",
+              "RelativeToolTip": "Final\\adminPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-19T05:27:12.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "adminPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\adminPage.aspx.cs",
+              "RelativeDocumentMoniker": "Final\\adminPage.aspx.cs",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\adminPage.aspx.cs",
+              "RelativeToolTip": "Final\\adminPage.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:27:36.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "deleteUser.aspx.cs",
               "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\deleteUser.aspx.cs",
               "RelativeDocumentMoniker": "Final\\deleteUser.aspx.cs",
@@ -47,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "simpleQuary.aspx.cs",
               "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\simpleQuary.aspx.cs",
               "RelativeDocumentMoniker": "Final\\simpleQuary.aspx.cs",
@@ -55,38 +157,11 @@
               "RelativeToolTip": "Final\\simpleQuary.aspx.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAAAFIAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T05:20:11.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T05:20:11.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "showTable.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx.cs",
-              "RelativeDocumentMoniker": "Final\\showTable.aspx.cs",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx.cs",
-              "RelativeToolTip": "Final\\showTable.aspx.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T05:18:12.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "showTable.aspx",
-              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx",
-              "RelativeDocumentMoniker": "Final\\showTable.aspx",
-              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx",
-              "RelativeToolTip": "Final\\showTable.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-19T05:18:03.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MasterPage.Master",
               "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\MasterPage.Master",
               "RelativeDocumentMoniker": "Final\\MasterPage.Master",
@@ -95,6 +170,31 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-05-18T22:10:04.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "showTable.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx.cs",
+              "RelativeDocumentMoniker": "Final\\showTable.aspx.cs",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx.cs",
+              "RelativeToolTip": "Final\\showTable.aspx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:18:12.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "showTable.aspx",
+              "DocumentMoniker": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx",
+              "RelativeDocumentMoniker": "Final\\showTable.aspx",
+              "ToolTip": "C:\\Users\\User1\\Desktop\\School\\website\\Taba\\Final\\Final\\showTable.aspx",
+              "RelativeToolTip": "Final\\showTable.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-19T05:18:03.944Z",
               "EditorCaption": ""
             }
           ]

@@ -68,7 +68,7 @@
 
             // בדיקת מספר טלפון --- מספר הטלפון חייב להיות בן 7 ספרות ---//
             var phone = document.getElementById("phone").value;
-            if (isEmpty(phone) || phone.length != 7 || isNaN(phone)) {
+            if (isEmpty(phone) || phone.length <= 8 || isNaN(phone)) {
                 msg = "מספר הטלפון חייב להיות בן 7 ספרות";
                 document.getElementById("mPhone").value = msg;
                 document.getElementById("mPhone").style.display = "inline";

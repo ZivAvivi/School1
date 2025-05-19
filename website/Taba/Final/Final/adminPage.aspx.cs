@@ -25,12 +25,12 @@ namespace Final
                 msg += "<center>";
                 msg += "<h1>דף מנהל</h1>";
                 msg += "<h2>";
-                msg += "<a href=\"showTable.aspx\">טבלת משתמשים</a>";
+                msg += "<a class=\"link\" href=\"showTable.aspx\">טבלת משתמשים</a>";
                 msg += "<h2>";
                 msg += "<h2>";
-                msg += "<a href=\"simpleQuary\">שאילתה פשוטה</a>";
+                msg += "<a class=\"link\" href=\"simpleQuary\">שאילתה פשוטה</a>";
                 msg += "<h2>";
-                msg += "<a href=\"deleteUser.aspx\">מחק משתמש</a>";
+                msg += "<a class=\"link\" href=\"deleteUser.aspx\">מחק משתמש</a>";
                 msg += "<h2>";
                 msg += "</center>";
             }
