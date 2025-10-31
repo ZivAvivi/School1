@@ -23,7 +23,8 @@
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:background="#baffc9"
-            android:text="0" />
+            android:textColor="@android:color/black"
+            android:text=" 0 " />
 
         <TextView
             android:layout_marginLeft="10dp"
@@ -35,7 +36,8 @@
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:background="#ffb3ba"
-            android:text="/" />
+            android:textColor="@android:color/black"
+            android:text=" ? " />
 
         <TextView
             android:id="@+id/number2"
@@ -45,7 +47,8 @@
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:background="#baffc9"
-            android:text="0" />
+            android:textColor="@android:color/black"
+            android:text=" 0 " />
 
     </LinearLayout>
 
@@ -61,7 +64,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             android:textColor="#E91E63"
-            android:text="  " />
+            android:text=" &gt; " />
 
         <RadioButton
             android:id="@+id/rbEqual"
@@ -79,7 +82,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             android:textColor="#E91E63"
-            android:text="  " />
+            android:text=" &lt; " />
     </RadioGroup>
 
     <LinearLayout
@@ -95,7 +98,7 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:layout_margin="10dp"
-            android:text="  " />
+            android:text=" &gt; " />
 
         <Button
             android:id="@+id/bEqual"
@@ -111,13 +114,22 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:layout_margin="10dp"
-            android:text="  " />
+            android:text=" &lt; " />
     </LinearLayout>
 
-    ```<Spinner
+    <Spinner
         android:id="@+id/spinner"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_gravity="center"
-        android:layout_height="wrap_content" />
+        android:layout_margin="20dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="check answers" />
 
 </LinearLayout>
