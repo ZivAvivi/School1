@@ -21,16 +21,9 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Spinner spActions;
     String[] actions = {"?", "<", ">", "="};
-    RadioButton rbBig;
-    RadioButton rbEqual;
-    RadioButton rbSmall;
-    TextView sign;
-    TextView number1;
-    TextView number2;
-    Button bBig;
-    Button bEqual;
-    Button bSmall;
-    Button check;
+    RadioButton rbBig, rbSmall, rbEqual;
+    TextView sign, number1, number2, helloMessage;
+    Button bBig, bEqual, bSmall, check;
 
 
     @Override
@@ -47,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // add spinner options
         spActions = findViewById(R.id.spinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, actions);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spActions.setAdapter(adapter);
 
         // on click listener for spinner
@@ -61,6 +55,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+
+        helloMessage = findViewById(R.id.helloMessage);
+        helloMessage.setText(" Hello, " + getIntent().getStringExtra("name") + " ");
 
         sign = findViewById(R.id.sign);
         number1 = findViewById(R.id.number1);

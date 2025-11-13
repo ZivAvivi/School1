@@ -6,7 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloMessage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:autoSizeTextType="uniform"
+        android:maxLines="1"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:text=" Hello, UserName " />
 
 
     <LinearLayout
@@ -119,12 +131,15 @@
 
     <Spinner
         android:id="@+id/spinner"
+        android:background="@drawable/border"
         android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:layout_height="50dp" />
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp" />
 
     <Button
+        android:padding="2dp"
         android:id="@+id/check"
         android:layout_width="300dp"
         android:layout_height="60dp"
