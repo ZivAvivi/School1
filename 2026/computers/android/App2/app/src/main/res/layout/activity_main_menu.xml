@@ -30,7 +30,7 @@
         android:inputType="text"
         android:textSize="30sp"
         android:textColor="@android:color/black"
-        android:text="Enter your name" />
+        android:hint="Enter your name" />
 
     <ImageView
         android:layout_margin="20dp"
