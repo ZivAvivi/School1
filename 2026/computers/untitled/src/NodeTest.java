@@ -4,40 +4,13 @@ public class NodeTest {
 
     public static void main (String[] args)
     {
-        int [] arr = {3, 2, 4, 5, 3, 1};
-        show(buildInput());
+        int [] arr = {1, 0, 1, 1, 1, 0, 1 ,0};
+        Node<Integer> lst = build(arr);
+        System.out.println(sequense(lst));
 
     }
     public static Scanner input = new Scanner(System.in);
 
-
-    public static Node<Integer> sumAndAddDigits(Node<Integer> lst) {
-        Node<Integer> prevInsert = null;
-        Node<Integer> pos = lst;
-
-        while (pos != null) {
-            lst = insert(lst, prevInsert, pos.getValue() + pos.getNext().getValue());
-
-            if (prevInsert == null) {
-                prevInsert = lst.getNext().getNext();
-            } else {
-                prevInsert = prevInsert.getNext().getNext().getNext();
-            }
-            pos = pos.getNext().getNext();
-        }
-
-        return lst;
-    }
-
-    public static Node<Integer> removeAllEvenDigits(Node<Integer> lst){
-        Node<Integer> pos = lst;
-        while (pos != null){
-            if (pos.getValue() %2 == 0)
-                lst = remove(lst, pos);
-            pos = pos.getNext();
-        }
-        return lst;
-    }
 
 
     //--- בניית שרשרת מההתחלה לסוף ---
@@ -59,16 +32,17 @@ public class NodeTest {
     {
         System.out.print("enter value -> ");
         int value = input.nextInt();
-       z
+        Node<Integer> lst = new Node<Integer>(0);
         Node<Integer> pos = lst;
 
         while (value != 0){
-            System.out.print("enter value -> ");
-            value = input.nextInt();
             pos.setNext(new Node<>(value));
             pos = pos.getNext();
+
+            System.out.print("enter value -> ");
+            value = input.nextInt();
         }
-        return lst;
+        return lst.getNext();
     }
 
     // prints list
@@ -188,6 +162,106 @@ public class NodeTest {
             p = p.getNext();
         }
         return count;
+    }
+
+    public static Node<Integer> addMikum(Node<Integer> lst)
+    {
+        int x = 2;
+        Node<Integer> temp, pos = lst;
+        temp = new Node<Integer>(1);
+        temp.setNext(lst);
+        lst = temp;
+
+        while (pos.getNext() != null)
+        {
+            temp = new Node<Integer>(x);
+            temp.setNext(pos.getNext());
+            pos.setNext(temp);
+            x++;
+            pos = pos.getNext();
+            pos = pos.getNext();
+        }
+
+        return lst;
+    }
+
+    /**
+     * Inserts a new node between every pair of consecutive nodes,
+     * where the new node's value is the sum of its two neighbors.
+     */
+    public static void sumTwo(Node<Integer> lst)
+    {
+        Node<Integer>temp, pos = lst;
+        while(pos!=null)
+        {
+            temp = new Node<Integer>(pos.getValue() + pos.getNext().getValue());
+
+            pos = pos.getNext();
+            temp.setNext(pos.getNext());
+            pos.setNext(temp);
+            pos = temp.getNext();
+        }
+    }
+
+    /**
+     * Reverses the order of the nodes in the linked list by iteratively
+     * moving the subsequent node to the head of the list.
+     */
+    public static Node<Integer> reverse (Node<Integer> lst)
+    {
+        if (lst == null)
+            return lst;
+
+        int x;
+        Node<Integer> pos = lst, p;
+        while (pos.hasNext())
+        {
+            p = pos.getNext();
+            x = p.getValue();
+            pos.setNext (p.getNext());
+            lst = new Node<Integer>(x, lst);
+        }
+        return lst;
+    }
+
+    public static Node<Integer> sumAndAddDigits(Node<Integer> lst) {
+        Node<Integer> prevInsert = null;
+        Node<Integer> pos = lst;
+
+        while (pos != null) {
+            lst = insert(lst, prevInsert, pos.getValue() + pos.getNext().getValue());
+
+            if (prevInsert == null) {
+                prevInsert = lst.getNext().getNext();
+            } else {
+                prevInsert = prevInsert.getNext().getNext().getNext();
+            }
+            pos = pos.getNext().getNext();
+        }
+
+        return lst;
+    }
+
+    public static Node<Integer> removeAllEvenDigits(Node<Integer> lst){
+        Node<Integer> pos = lst;
+        while (pos != null){
+            if (pos.getValue() %2 == 0)
+                lst = remove(lst, pos);
+            pos = pos.getNext();
+        }
+        return lst;
+    }
+
+    public static int sequense(Node<Integer> lst){
+        int sum = 0;
+        while (lst.getNext() != null && lst.getNext().getNext() != null)
+        {
+            if (lst.getValue() == 1 && lst.getNext().getValue() == 0 && lst.getNext().getNext().getValue() == 1)
+                sum++;
+            lst = lst.getNext();
+        }
+
+        return sum;
     }
 
 }
