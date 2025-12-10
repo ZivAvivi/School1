@@ -1,14 +1,14 @@
+import java.util.Scanner;
+
 public class NodeTest {
 
     public static void main (String[] args)
     {
         int [] arr = {3, 2, 4, 5, 3, 1};
-        Node<Integer> lst1 = build(arr);
-        show(lst1);
-        show(removeAllEvenDigits(lst1));
-        show(sumAndAddDigits(lst1));
+        show(buildInput());
 
     }
+    public static Scanner input = new Scanner(System.in);
 
 
     public static Node<Integer> sumAndAddDigits(Node<Integer> lst) {
@@ -50,6 +50,22 @@ public class NodeTest {
         for (int i = 1 ; i < arr.length ; i++)
         {
             pos.setNext (new Node<Integer> (arr[i]));
+            pos = pos.getNext();
+        }
+        return lst;
+    }
+
+    public static Node<Integer> buildInput ()
+    {
+        System.out.print("enter value -> ");
+        int value = input.nextInt();
+       z
+        Node<Integer> pos = lst;
+
+        while (value != 0){
+            System.out.print("enter value -> ");
+            value = input.nextInt();
+            pos.setNext(new Node<>(value));
             pos = pos.getNext();
         }
         return lst;
