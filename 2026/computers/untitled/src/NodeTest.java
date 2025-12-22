@@ -4,14 +4,13 @@ public class NodeTest {
 
     public static void main (String[] args)
     {
-        int [] arr = {1, 0, 1, 1, 1, 0, 1 ,0};
+        int [] arr = {56, 42, 12, 43, -23};
         Node<Integer> lst = build(arr);
-        System.out.println(sequense(lst));
+        show(lst);
+        show(addMikum(lst));
 
     }
     public static Scanner input = new Scanner(System.in);
-
-
 
     //--- בניית שרשרת מההתחלה לסוף ---
     public static Node<Integer> build (int [] arr)
@@ -28,6 +27,7 @@ public class NodeTest {
         return lst;
     }
 
+    // builds a list from inputs until 0 is entered
     public static Node<Integer> buildInput ()
     {
         System.out.print("enter value -> ");
@@ -44,6 +44,22 @@ public class NodeTest {
         }
         return lst.getNext();
     }
+
+    // build a list with num amount of nodes
+    public static Node<Integer> buildToNum (int num)
+    {
+        Node<Integer> lst = new Node<Integer>(0);
+        Node<Integer> pos = lst;
+
+        for (int i = 1 ; i < num ; i++)
+        {
+            pos.setNext (new Node<Integer> (i));
+            pos = pos.getNext();
+        }
+        return lst;
+    }
+    // ex: 6
+    // list will be [0,  1,  2,  3,  4,  5]
 
     // prints list
     public static void show(Node<Integer> lst)
@@ -71,49 +87,12 @@ public class NodeTest {
         return sum;
     }
 
-    // build a list with num amount of nodes
-    public static Node<Integer> buildToNum (int num)
-    {
-            Node<Integer> lst = new Node<Integer>(0);
-            Node<Integer> pos = lst;
-
-            for (int i = 1 ; i < num ; i++)
-            {
-                pos.setNext (new Node<Integer> (i));
-                pos = pos.getNext();
-            }
-            return lst;
-    }
-
-    // checks if a given num is in the list
-    public static boolean isNumberInList(int num, Node<Integer> lst){
-        while (lst != null)
-        {
-            if (lst.getValue() == num)
-                return true;
-            lst = lst.getNext();
-        }
-        return false;
-    }
-
     // checks if a given num is in the list but with recursion
     public static boolean isNumberInListReq(int num, Node<Integer> lst){
         if (lst == null) return false;
         if (lst.getValue() == num) return true;
 
         return isNumberInListReq(num, lst.getNext());
-    }
-
-    // checks if the list is sorted
-    public static boolean isSorted(Node<Integer> lst){
-        while (lst.getNext() != null)
-        {
-            if (lst.getValue() > lst.getNext().getValue())
-                return false;
-
-            lst = lst.getNext();
-        }
-        return true;
     }
 
     // checks if the array is sorted with recursion
@@ -130,7 +109,6 @@ public class NodeTest {
             return lst.getNext();
 
         Node<T> prev = lst;
-
         while(prev.getNext() != pos)
             prev = prev.getNext();
 
@@ -164,6 +142,31 @@ public class NodeTest {
         return count;
     }
 
+    /**
+     * Reverses the order of the nodes in the linked list
+     */
+    public static Node<Integer> reverse (Node<Integer> lst)
+    {
+        if (lst == null)
+            return lst;
+
+        int x;
+        Node<Integer> pos = lst, p;
+        while (pos.hasNext())
+        {
+            p = pos.getNext();
+            x = p.getValue();
+            pos.setNext (p.getNext());
+            lst = new Node<Integer>(x, lst);
+        }
+        return lst;
+    }
+
+    /*
+    * add the mikum of the list before the number example:
+    * input [ 56,  42,  12,  43,  -23]
+    * output [ 1,  56,  2,  42,  3,  12,  4,  43,  5,  -23]
+    * */
     public static Node<Integer> addMikum(Node<Integer> lst)
     {
         int x = 2;
@@ -203,26 +206,6 @@ public class NodeTest {
         }
     }
 
-    /**
-     * Reverses the order of the nodes in the linked list by iteratively
-     * moving the subsequent node to the head of the list.
-     */
-    public static Node<Integer> reverse (Node<Integer> lst)
-    {
-        if (lst == null)
-            return lst;
-
-        int x;
-        Node<Integer> pos = lst, p;
-        while (pos.hasNext())
-        {
-            p = pos.getNext();
-            x = p.getValue();
-            pos.setNext (p.getNext());
-            lst = new Node<Integer>(x, lst);
-        }
-        return lst;
-    }
 
     public static Node<Integer> sumAndAddDigits(Node<Integer> lst) {
         Node<Integer> prevInsert = null;
@@ -263,6 +246,30 @@ public class NodeTest {
 
         return sum;
     }
+
+    // checks if a given num is in the list
+    public static boolean isNumberInList(int num, Node<Integer> lst){
+        while (lst != null)
+        {
+            if (lst.getValue() == num)
+                return true;
+            lst = lst.getNext();
+        }
+        return false;
+    }
+
+    // checks if the list is sorted
+    public static boolean isSorted(Node<Integer> lst){
+        while (lst.getNext() != null)
+        {
+            if (lst.getValue() > lst.getNext().getValue())
+                return false;
+
+            lst = lst.getNext();
+        }
+        return true;
+    }
+
 
 }
 /*
