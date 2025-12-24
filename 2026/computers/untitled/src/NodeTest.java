@@ -83,7 +83,6 @@ public class NodeTest {
             sum += lst.getValue();
             lst = lst.getNext();
         }
-
         return sum;
     }
 
