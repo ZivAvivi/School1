@@ -18,6 +18,11 @@ public class ListHw {
         [ 4,  1,  6,  1]
         [ 15,  6,  46,  11]
         * */
+
+        int[] arr2 = {2, 5, 7, 8, -3, -1, 0, 2, 4, 6, 5, 5, 6, 7, 12};
+        Node<Integer> lst2 = NodeTest.build(arr2);
+        System.out.println(longestUpSequence(lst2));
+        // 6
     }
 
     // question 1 - 1
@@ -75,6 +80,7 @@ public class ListHw {
         return temp.getNext();
     }
 
+    // question 1 - 4
     public static Node<Integer> getSequenceSumList(Node<Integer> lst){
         int count = 0;
         Node<Integer> temp = new Node<>(-1);
@@ -95,5 +101,33 @@ public class ListHw {
     }
 
 
+    public static int longestUpSequence(Node<Integer> lst) {
+        int maxCount = 0;
+        int currentCount = 0;
+
+        if (lst.getValue() > 0) {
+            currentCount = 1;
+            maxCount = 1;
+        }
+
+        Node<Integer> prev = lst;
+        Node<Integer> pos = lst.getNext();
+        while (pos != null) {
+            if (pos.getValue() > 0) {
+                if (pos.getValue() > prev.getValue())
+                    currentCount++;
+            } else
+                currentCount = 0;
+
+            if (currentCount > maxCount) {
+                maxCount = currentCount;
+            }
+
+            prev = pos;
+            pos = pos.getNext();
+        }
+
+        return maxCount;
+    }
 
 }
