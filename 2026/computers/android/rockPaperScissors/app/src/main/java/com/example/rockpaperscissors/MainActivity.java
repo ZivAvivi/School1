@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        // changes the title
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle("RPS");
+        }
+
         tvScore = findViewById(R.id.tvScore);
         
         ibRock = findViewById(R.id.ibRock);

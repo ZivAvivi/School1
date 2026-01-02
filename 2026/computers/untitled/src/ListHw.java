@@ -23,6 +23,13 @@ public class ListHw {
         Node<Integer> lst2 = NodeTest.build(arr2);
         System.out.println(longestUpSequence(lst2));
         // 6
+
+        int[] sort1 = {1,3, 8, 12};
+        int[] sort2 = {3, 9, 12, 14};
+        Node<Integer> lst3 = NodeTest.build(sort1);
+        Node<Integer> lst4 = NodeTest.build(sort2);
+        NodeTest.show(intersection(lst3, lst4));
+        
     }
 
     // question 1 - 1
@@ -48,7 +55,7 @@ public class ListHw {
         Node<Integer> pos = lst;
         while (pos != null)
         {
-            if (pos.getValue() > 0){
+            if (pos.getValue() > 0 && pos.hasNext()){
                 count++;
             } else {
                 if (count > longestSequence)
@@ -130,4 +137,28 @@ public class ListHw {
         return maxCount;
     }
 
+
+
+    public static Node<Integer> intersection(Node<Integer> lst, Node<Integer> lst2) {
+        Node<Integer> temp = new Node<>(-1);
+        Node<Integer> posTemp = temp;
+        Node<Integer> pos = lst;
+        Node<Integer> pos2 = lst2;
+
+        while (pos != null && pos2 != null) {
+            if (pos.getValue() == pos2.getValue()) {
+                posTemp.setNext(new Node<>(pos.getValue()));
+                posTemp = posTemp.getNext();
+                pos = pos.getNext();
+                pos2 = pos2.getNext();
+            }
+            else if (pos.getValue() < pos2.getValue()) {
+                pos = pos.getNext();
+            }
+            else {
+                pos2 = pos2.getNext();
+            }
+        }
+        return temp.getNext();
+    }
 }
