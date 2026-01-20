@@ -1,5 +1,6 @@
 package com.example.rockpaperscissors;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ import androidx.activity.EdgeToEdge;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -87,9 +89,14 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
+    @SuppressLint("RestrictedApi")
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar, menu);
+        if (menu instanceof MenuBuilder) {
+            MenuBuilder m = (MenuBuilder) menu;
+            m.setOptionalIconsVisible(true);
+        }
         return true;
     }
 
@@ -98,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         if (id == R.id.action_toast) {
             Toast.makeText(this, "Rock Paper Scissors!", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (id == R.id.action_user_manual) {
+            Intent intent = new Intent(this, RulesActivity.class);
+            startActivity(intent);
             return true;
         } else if (id == R.id.action_exit) {
             finish();
