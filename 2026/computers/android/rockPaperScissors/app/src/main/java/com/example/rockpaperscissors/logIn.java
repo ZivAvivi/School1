@@ -19,7 +19,9 @@ public class logIn extends AppCompatActivity {
     private EditText userName;
     private EditText password;
 
-    private Button confirm;
+    private Button signUp;
+    private Button next;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +42,10 @@ public class logIn extends AppCompatActivity {
         email = findViewById(R.id.editTextTextEmailAddress);
         password = findViewById(R.id.editTextTextPassword);
         userName = findViewById(R.id.editTextUserName);
-        confirm = findViewById(R.id.button);
+        signUp = findViewById(R.id.signUp);
 
-        confirm.setOnClickListener(v -> {
+
+        signUp.setOnClickListener(v -> {
             String emailText = email.getText().toString();
             String passwordText = password.getText().toString();
             String userNameText = userName.getText().toString();
@@ -62,10 +65,13 @@ public class logIn extends AppCompatActivity {
             editor.apply();
 
             Toast.makeText(logIn.this, "Login successful!", Toast.LENGTH_SHORT).show();
+        });
+
+        Button next = findViewById(R.id.next);
+        next.setOnClickListener(v -> {
             Intent intent = new Intent(logIn.this, MainActivity.class);
             startActivity(intent);
         });
-
-
     }
+
 }

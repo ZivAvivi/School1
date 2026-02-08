@@ -9,6 +9,18 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome "
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/llChoices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/tvInstructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

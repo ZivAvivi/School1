@@ -3,6 +3,7 @@ package com.example.rockpaperscissors;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -29,10 +30,13 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvScore;
+    private TextView welcome;
     private ImageButton ibRock, ibPaper, ibScissors;
     private int wins = 0;
     private int losses = 0;
     private int selectedUserChoice = 0; // 0: None, 1: Rock, 2: Paper, 3: Scissors
+
+
 
     private ActivityResultLauncher<Intent> resultLauncher;
 
@@ -53,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         tvScore = findViewById(R.id.tvScore);
+        welcome = findViewById(R.id.welcome);
+
+        SharedPreferences sp = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        String userName = sp.getString("userName", "");
+        welcome.setText("Welcome " + userName);
         
         ibRock = findViewById(R.id.ibRock);
         ibPaper = findViewById(R.id.ibPaper);
