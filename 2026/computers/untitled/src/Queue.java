@@ -3,60 +3,67 @@ public class Queue<T>
     private Node<T> first;
     private Node<T> last;
 
-    // פעולה בונה היוצרת תור ריק
-    public Queue ()
+    public Queue()
     {
         this.first = null;
         this.last = null;
     }
-    //פעולה המחזירה אמת אם התור ריק ושקר אחרת
+
     public boolean isEmpty()
     {
         return this.first == null;
     }
-    //פעולה המוסיפה איבר לסוף התור
+
+    // adds to the end of the queue
     public void insert(T x)
     {
-        Node<T> temp = new Node<T> (x);
-        if ( this.last == null)       //התור ריק ?
+        Node<T> temp = new Node<T>(x);
+        if (this.last == null)
+        {
             this.first = temp;
+        }
         else
-            this.last.setNext(temp);    //התור לא ריק
+        {
+            this.last.setNext(temp);
+        }
         this.last = temp;
     }
 
+    // queue isnt empty
+    // removes and returns the head
     public T remove()
     {
-        T x =  this.first.getValue();
+        T x = this.first.getValue();
         this.first = this.first.getNext();
-        if ( this.first == null)       // למקרה שהיה רק איבר אחד בתור
+        if (this.first == null)
+        {
             this.last = null;
+        }
         return x;
     }
 
     public T head()
     {
-        return  this.first.getValue();
+        return this.first.getValue();
     }
 
-
-    public String toString() {
-        if (isEmpty()) {
-            return "[]";
-        }
-
-        StringBuilder sb = new StringBuilder("[");
-        Node<T> current = first;
-
-        while (current != null) {
-            sb.append(current.getValue());
-            if (current.hasNext()) {
-                sb.append(", ");
+    public String toString()
+    {
+        String str = "[";
+        Node<T> pos = this.first;
+        while(pos != null)
+        {
+            if (pos.hasNext())
+            {
+                str = str + pos.getValue() + ",";
             }
-            current = current.getNext();
+            else
+            {
+                str = str + pos.getValue();
+            }
+            pos = pos.getNext();
         }
-        sb.append("]");
-        return sb.toString();
+        str = str + "]";
+        return str;
     }
-
 }

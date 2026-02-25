@@ -15,8 +15,7 @@ public class NodeTest {
     //--- בניית שרשרת מההתחלה לסוף ---
     public static Node<Integer> build (int [] arr)
     {
-        Node<Integer> lst = new
-                Node<Integer>(arr[0]);
+        Node<Integer> lst = new Node<Integer>(arr[0]);
         Node<Integer> pos = lst;
 
         for (int i = 1 ; i < arr.length ; i++)
