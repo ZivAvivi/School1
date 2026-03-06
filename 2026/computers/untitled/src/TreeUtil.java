@@ -1,125 +1,124 @@
-
 public class TreeUtil {
 
-
-    // root left right
-    public static void printPreOrder (BinNode<Integer> bt)
-    {
-        if (bt != null)
-        {
+    // 1. root left right
+    public static void printPreOrder(BinNode<Integer> bt) {
+        if (bt != null) {
             System.out.print(bt.getValue() + "  ");
-            printPreOrder (bt.getLeft());
-            printPreOrder (bt.getRight());
+            printPreOrder(bt.getLeft());
+            printPreOrder(bt.getRight());
         }
     }
 
-    // left root right
-    public static void printInOrder (BinNode<Integer> bt)
-    {
-        if (bt != null)
-        {
-            printInOrder (bt.getLeft());
+    // 2. left root right
+    public static void printInOrder(BinNode<Integer> bt) {
+        if (bt != null) {
+            printInOrder(bt.getLeft());
             System.out.print(bt.getValue() + "  ");
-            printInOrder (bt.getRight());
+            printInOrder(bt.getRight());
         }
     }
 
-    // left right root
-    public static void printPostOrder(BinNode<Integer> bt)
-    {
-        if (bt != null)
-        {
-            printPostOrder (bt.getLeft());
-            printPostOrder (bt.getRight());
+    // 3. left right root
+    public static void printPostOrder(BinNode<Integer> bt) {
+        if (bt != null) {
+            printPostOrder(bt.getLeft());
+            printPostOrder(bt.getRight());
             System.out.print(bt.getValue() + "  ");
         }
     }
 
-
-    // assumes bt != null
-    public static boolean isLeaf(BinNode bt) {
-        return bt.getLeft() == bt.getRight();
+    // 4. assumes bt != null
+    public static boolean isLeaf(BinNode<Integer> bt) {
+        return bt.getLeft() == null && bt.getRight() == null;
     }
 
-    public static int sumTree (BinNode<Integer> bt) {
+    // 5.
+    public static int sumTree(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
-        return bt.getValue() +
-                sumTree(bt.getLeft()) +
-                sumTree(bt.getRight());
+        return bt.getValue() + sumTree(bt.getLeft()) + sumTree(bt.getRight());
     }
 
-    public static int countTree (BinNode<Integer> bt) {
+    // 6.
+    public static int countTree(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
         return 1 + countTree(bt.getLeft()) + countTree(bt.getRight());
     }
 
-    public static int sumTreePositive (BinNode<Integer> bt) {
+    // 7.
+    public static int sumTreePositive(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
-        if (bt.getValue() >= 0)
-            return bt.getValue() +
-                    sumTreePositive(bt.getLeft()) +
-                    sumTreePositive(bt.getRight());
-
-        return  sumTreePositive(bt.getLeft()) +
-                sumTreePositive(bt.getRight());
+        if (bt.getValue() > 0)
+            return bt.getValue() + sumTreePositive(bt.getLeft()) + sumTreePositive(bt.getRight());
+        return sumTreePositive(bt.getLeft()) + sumTreePositive(bt.getRight());
     }
 
-    public static int countTreePositive (BinNode<Integer> bt) {
+    // 8.
+    public static int countTreePositive(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
-        if (bt.getValue() >= 0)
+        if (bt.getValue() > 0)
             return 1 + countTreePositive(bt.getLeft()) + countTreePositive(bt.getRight());
         return countTreePositive(bt.getLeft()) + countTreePositive(bt.getRight());
     }
 
-    public static int sumLeftSons (BinNode<Integer> bt) {
+    // 9.
+    public static int sumLeftSons(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
-        if (bt.hasLeft())
-            return bt.getValue() + sumLeftSons(bt.getLeft()) + sumLeftSons(bt.getRight());
-        return sumLeftSons(bt.getRight()) + sumLeftSons(bt.getLeft());
+        int sum = 0;
+        if (bt.getLeft() != null) {
+            sum += bt.getLeft().getValue();
+        }
+        return sum + sumLeftSons(bt.getLeft()) + sumLeftSons(bt.getRight());
     }
 
-    public static int countLeftSons (BinNode<Integer> bt) {
+    // 10.
+    public static int countLeftSons(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
-        if (bt.hasLeft())
-            return 1 + countLeftSons(bt.getLeft()) + countLeftSons(bt.getRight());
-        return countLeftSons(bt.getRight()) + countLeftSons(bt.getLeft());
+        int count = 0;
+        if (bt.getLeft() != null) {
+            count = 1;
+        }
+        return count + countLeftSons(bt.getLeft()) + countLeftSons(bt.getRight());
     }
 
-
-
-    public static boolean exist(BinNode<Integer> bt, int x) {
+    // 11.
+    public static boolean isExist(BinNode<Integer> bt, int x) {
         if (bt == null)
             return false;
         if (bt.getValue() == x)
             return true;
-        return exist(bt.getLeft(), x) || exist(bt.getRight(), x);
+        return isExist(bt.getLeft(), x) || isExist(bt.getRight(), x);
     }
 
-
-    public static int height (BinNode<Integer> bt)
-    {
-        if (bt == null) return -1;
-        if (isLeaf (bt)) return 0;
-        return 1 + Math.max(height (bt.getLeft()), height(bt.getRight()));
-    }
-
+    // 12.
     public static int countLeafs(BinNode<Integer> bt) {
         if (bt == null)
             return 0;
-        if (isLeaf (bt))
-            return 1 + countLeafs(bt.getLeft()) + countLeafs(bt.getRight());
-        return countLeafs(bt.getRight()) + countLeafs(bt.getLeft());
+        if (isLeaf(bt))
+            return 1;
+        return countLeafs(bt.getLeft()) + countLeafs(bt.getRight());
     }
 
-    public static int maxTree(BinNode<Integer> bt)
-    {
-        return Math.max(maxTree(bt.getLeft()), maxTree(bt.getRight()));
+    // 13.
+    public static int heightTree(BinNode<Integer> bt) {
+        if (bt == null) return -1;
+        if (isLeaf(bt)) return 0;
+        return 1 + Math.max(heightTree(bt.getLeft()), heightTree(bt.getRight()));
     }
 
+    // 14.
+    public static int maxTree(BinNode<Integer> bt) {
+        // Base case: return a very small number so it doesn't mess up the max calculation
+        if (bt == null) {
+            return Integer.MIN_VALUE;
+        }
+        int maxLeft = maxTree(bt.getLeft());
+        int maxRight = maxTree(bt.getRight());
+        return Math.max(bt.getValue(), Math.max(maxLeft, maxRight));
+    }
 }
