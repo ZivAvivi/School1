@@ -112,13 +112,15 @@ public class TreeUtil {
     }
 
     // 14.
-    public static int maxTree(BinNode<Integer> bt) {
-        // Base case: return a very small number so it doesn't mess up the max calculation
+    public static int maxTree(BinNode<Integer> bt)
+    {
         if (bt == null) {
-            return Integer.MIN_VALUE;
+            return 0;
         }
         int maxLeft = maxTree(bt.getLeft());
         int maxRight = maxTree(bt.getRight());
-        return Math.max(bt.getValue(), Math.max(maxLeft, maxRight));
+        int maxChildren = Math.max(maxLeft, maxRight);
+        return Math.max(bt.getValue(), maxChildren);
     }
+
 }
