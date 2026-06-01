@@ -2,14 +2,14 @@ public class ListHw {
 
     public static void main(String[] args) {
         int [] arr = {2, 5, 1, 7, -4, 6, -1, 12, 3, 9, 11, 4, 7, -2, 11, -2};
-        Node<Integer> lst = NodeTest.build(arr);
-        NodeTest.show(lst);
+        Node<Integer> lst = NodeUtil.build(arr);
+        NodeUtil.show(lst);
 
         System.out.println(sequenceCount(lst));
         System.out.println(longestSequence(lst));
 
-        NodeTest.show(getSequenceList(lst));
-        NodeTest.show(getSequenceSumList(lst));
+        NodeUtil.show(getSequenceList(lst));
+        NodeUtil.show(getSequenceSumList(lst));
 
         /*
         [ 2,  5,  1,  7,  -4,  6,  -1,  12,  3,  9,  11,  4,  7,  -2,  11,  -2]
@@ -20,15 +20,15 @@ public class ListHw {
         * */
 
         int[] arr2 = {2, 5, 7, 8, -3, -1, 0, 2, 4, 6, 5, 5, 6, 7, 12};
-        Node<Integer> lst2 = NodeTest.build(arr2);
+        Node<Integer> lst2 = NodeUtil.build(arr2);
         System.out.println(longestUpSequence(lst2));
         // 6
 
         int[] sort1 = {1,3, 8, 12};
         int[] sort2 = {3, 9, 12, 14};
-        Node<Integer> lst3 = NodeTest.build(sort1);
-        Node<Integer> lst4 = NodeTest.build(sort2);
-        NodeTest.show(intersection(lst3, lst4));
+        Node<Integer> lst3 = NodeUtil.build(sort1);
+        Node<Integer> lst4 = NodeUtil.build(sort2);
+        NodeUtil.show(intersection(lst3, lst4));
         
     }
 
