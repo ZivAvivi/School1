@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NodeTest {
+public class NodeUtil {
 
     public static void main (String[] args)
     {
@@ -43,6 +43,7 @@ public class NodeTest {
         }
         return lst.getNext();
     }
+
 
     // build a list with num amount of nodes
     public static Node<Integer> buildToNum (int num)
@@ -100,7 +101,7 @@ public class NodeTest {
     }
 
 
-    // removes a value in the list
+    // removes the given node from the list
     public static <T> Node<T> remove(Node<T> lst, Node<T> pos)
     {
         if(pos == lst) // if the pos == the first node in list
@@ -233,7 +234,7 @@ public class NodeTest {
         return lst;
     }
 
-    public static int sequense(Node<Integer> lst){
+    public static int sequence(Node<Integer> lst){
         int sum = 0;
         while (lst.getNext() != null && lst.getNext().getNext() != null)
         {

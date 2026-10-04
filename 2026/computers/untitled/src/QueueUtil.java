@@ -3,12 +3,53 @@ import java.util.Random;
 public class QueueUtil{
 
     public static void main(String[] args) {
+        // Create the queue from the image example: [5, 11, 6, 9, 3, 6, 3]
         Queue<Integer> q = new Queue<>();
-        q = queue10_10Random();
-        System.out.println(q.toString());
-        System.out.println(queueSumFirstLast(q));
+        q.insert(5);
+        q.insert(11);
+        q.insert(6);
+        q.insert(9);
+        q.insert(3);
+        q.insert(6);
+        q.insert(3);
 
+        System.out.println("Original Queue: " + q);
+        System.out.println("-------------------------------------------");
 
+        System.out.println(isMagic(q, 1));
+        System.out.println("after queue: " + q);
+
+    }
+
+    public static boolean isMagic(Queue<Integer> q, int m){
+        if(m == 1){return false;}
+        Queue<Integer> temp = new Queue<>();
+        int count = 1;
+        int sum = 0;
+        int mNum = q.head();
+
+        while(count <= m){
+            if (count == m-1){
+                sum += q.head();
+                System.out.println(sum);
+            }
+            if (count == m){
+                mNum = q.head();
+                System.out.println(mNum);
+            }
+            temp.insert(q.remove());
+            count++;
+        }
+        if(q.isEmpty()){return false;}
+        sum += q.head();
+
+        while (!q.isEmpty()){
+            temp.insert(q.remove());
+        }
+        while (!temp.isEmpty()){
+            q.insert(temp.remove());
+        }
+        return sum == mNum;
     }
 
     public static Queue<Integer> queue10_10Random(){
