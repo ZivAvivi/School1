@@ -1,3 +1,4 @@
+
 public class Cone extends Circle {
 
     private double height;
@@ -16,18 +17,34 @@ public class Cone extends Circle {
     }
 
     public double lateralArea() {
-        return Math.PI * getRadius() * slant();
+        return Math.round(Math.PI * getRadius() * slant() * 100) / 100.0;
     }
 
     public double surfaceArea() {
-        return lateralArea() + area();
+        double r = getRadius();
+        return Math.round((Math.PI * r * slant() + Math.PI * r * r) * 100) / 100.0;
     }
 
     public double volume() {
-        return area() * height / 3;
+        double r = getRadius();
+        return Math.round(Math.PI * r * r * height / 3 * 100) / 100.0;
     }
 
     public String toString() {
-        return "Cone: " + super.toString() + ", height: " + height;
+        return "Cylinder: " + super.toString() + ", height: " + height + ", surface area: " + surfaceArea() + ", lateral area: " + lateralArea();
     }
 }
+
+/*
+Type: Circle
+circle: (1, 2), radius: 3.0, area: 28.27, perimeter: 18.85
+
+Type: Cylinder
+Cylinder: center: (0, 0), radius: 2.0, area: 12.57, perimeter: 12.57, height: 5.0, surface area: 87.96, lateral area: 62.83
+
+Type: Cone
+Cylinder: center: (3, 4), radius: 1.5, area: 7.07, perimeter: 9.42, height: 4.0, surface area: 27.2, lateral area: 20.13
+
+Type: Circle
+circle: (1, 2), radius: 3.0, area: 28.27, perimeter: 18.85
+* */
